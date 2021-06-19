@@ -28,10 +28,11 @@ const getArgOptions = () => {
 // https://www.npmjs.com/package/gulp-fontmin
 function minFunc() {
     console.log('==========最小化字体',)
+    let text = require('./src/text.js')
     let argOptions = getArgOptions()
     return gulp.src(`./src/fonts/${argOptions.font}`)
         .pipe(fontmin({
-            text: '工具服务查询',
+            text: text,
             // onlyChinese: false   
         }))
         .pipe(rename((path) => {
