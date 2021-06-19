@@ -9,35 +9,42 @@
  */
 require('util').inspect.defaultOptions.depth = null
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+// var sass = require('gulp-sass');
 var rename = require('gulp-rename')
-var watcher = require('gulp-watch')
+// var watcher = require('gulp-watch')
 var changed = require('gulp-changed');
-const concat = require('gulp-concat');
-const template = require('gulp-template');
-const srcName = 'PingFang.ttf'
-gulp.task('default', minFunc)
+// const concat = require('gulp-concat');
+// const template = require('gulp-template');
+var fontmin = require('gulp-fontmin-woff2')
+var font2css = require('gulp-font2css-display').default
+gulp.task('default', gulp.series([minFunc, generateBase64]))
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
-    // var knownOptions = {
-    //     string: 'env',
-    //     default: { env: process.env.NODE_ENV || 'production' }
-    // };
-
     var options = minimist(process.argv.slice(2));
-    console.log('==========options', process.argv, options)
+    return options
 
 }
 // https://www.npmjs.com/package/gulp-fontmin
 function minFunc() {
     console.log('==========最小化字体',)
     let argOptions = getArgOptions()
-    console.log('==========',)
-    return gulp.src(`./src/fonts/${srcName}`)
+    return gulp.src(`./src/fonts/${argOptions.font}`)
+        .pipe(fontmin({
+            text: '工具服务查询',
+            // onlyChinese: false   
+        }))
         .pipe(rename((path) => {
             console.log('==========path', path)
             path.basename += '-min'
+        }))
+        .pipe(gulp.dest('./dist/'))
+}
+function generateBase64() {
+    return gulp.src(`./dist/*.ttf`)
+        .pipe(font2css())
+        .pipe(rename(path => {
+            path.basename += '-base64'
         }))
         .pipe(gulp.dest('./dist/'))
 }
