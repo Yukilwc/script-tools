@@ -17,7 +17,7 @@ var changed = require('gulp-changed');
 // const template = require('gulp-template');
 var fontmin = require('gulp-fontmin-woff2')
 var font2css = require('gulp-font2css-display').default
-gulp.task('default', gulp.series([minFunc, generateBase64]))
+gulp.task('min', gulp.series([minFunc, generateBase64]))
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -48,4 +48,35 @@ function generateBase64() {
             path.basename += '-base64'
         }))
         .pipe(gulp.dest('./dist/'))
+}
+
+gulp.task("cn", gulp.series([generateCn]))
+function generateCn() {
+    let { getCn } = require('./tools.js')
+    let text = getCn()
+    let argOptions = getArgOptions()
+    return gulp.src(`./src/fonts/${argOptions.font}`)
+        .pipe(fontmin({
+            text: text,
+            // onlyChinese: false   
+        }))
+        .pipe(rename((path) => {
+            console.log('==========path', path)
+            path.basename += '-only-chinese'
+        }))
+        .pipe(gulp.dest('./dist/cn/'))
+
+}
+gulp.task("convert", gulp.series([doConvert]))
+function doConvert() {
+    let argOptions = getArgOptions()
+    return gulp.src(`./src/fonts/${argOptions.font}`)
+        .pipe(fontmin({
+            text: '',
+        }))
+        .pipe(rename((path) => {
+            console.log('==========path', path)
+        }))
+        .pipe(gulp.dest('./dist/convert/'))
+
 }
