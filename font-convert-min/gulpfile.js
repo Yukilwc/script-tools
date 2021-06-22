@@ -39,15 +39,15 @@ function minFunc() {
             console.log('==========path', path)
             path.basename += '-min'
         }))
-        .pipe(gulp.dest('./dist/'))
+        .pipe(gulp.dest('./dist/min/'))
 }
 function generateBase64() {
-    return gulp.src(`./dist/*.ttf`)
+    return gulp.src(`./dist/min/*.ttf`)
         .pipe(font2css())
         .pipe(rename(path => {
             path.basename += '-base64'
         }))
-        .pipe(gulp.dest('./dist/'))
+        .pipe(gulp.dest('./dist/min/'))
 }
 
 gulp.task("cn", gulp.series([generateCn]))
@@ -80,3 +80,5 @@ function doConvert() {
         .pipe(gulp.dest('./dist/convert/'))
 
 }
+const { streamTask } = require('./streamTask')
+gulp.task("stream", gulp.series([streamTask]))

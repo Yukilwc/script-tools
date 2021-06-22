@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "min": "gulp min --font PingFang.ttf",
+    "stream": "gulp stream --font PingFang.ttf",
     "cn": "gulp cn --font PingFang.ttf",
     "convert": "gulp convert --font PingFang.ttf"
   },
