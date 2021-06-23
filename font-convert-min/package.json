@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "min": "gulp min --font PingFang.ttf",
-    "stream": "gulp stream --font PingFang.ttf",
-    "cn": "gulp cn --font PingFang.ttf",
-    "convert": "gulp convert --font PingFang.ttf"
+    "min": "gulp min --font font.ttf",
+    "stream": "gulp stream --font font.ttf",
+    "cn": "gulp cn --font font.ttf",
+    "convert": "gulp convert --font font.ttf"
   },
   "author": "",
   "license": "ISC",
