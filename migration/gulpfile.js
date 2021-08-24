@@ -2,7 +2,7 @@
  * @Author: 李文超
  * @Date: 2020-10-15 17:39:13
  * @LastEditors: 李文超
- * @LastEditTime: 2021-08-24 19:44:19
+ * @LastEditTime: 2021-08-24 19:52:21
  * @Description: file content
  * @FilePath: \script-tools\elementui-color-replace\gulpfile.js
  */
@@ -55,10 +55,15 @@ function mp2Backup() {
     }
     // 迁移图片
     function handleImage() {
-        return
+        return gulp.src([`${mpFolderPath}/images/${indexName}/*`])
+            .pipe(rename((path) => {
+                console.log('==========rename path', path)
+            }))
+            .pipe(
+                gulp.dest(`${mpBackupFolderPath}/images/${indexName}/`)
+            )
     }
-    return gulp.series([handleClean, handleFile,
-    ])
+    return gulp.series([handleClean,gulp.parallel([handleFile,handleImage])])
 }
 gulp.task('backup2Mp', () => { })
 gulp.task('mp2Backup', mp2Backup())
