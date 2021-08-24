@@ -2,7 +2,7 @@
  * @Author: 李文超
  * @Date: 2020-10-15 17:39:13
  * @LastEditors: 李文超
- * @LastEditTime: 2021-08-24 20:15:09
+ * @LastEditTime: 2021-08-24 20:49:32
  * @Description: file content
  * @FilePath: \script-tools\elementui-color-replace\gulpfile.js
  */
@@ -43,7 +43,9 @@ function mp2Backup() {
 
     // 清空目标文件夹
     function handleClean() {
-        return gulp.src([`${mpBackupFolderPath}/pages/${indexName}`, `${mpBackupFolderPath}/images/${indexName}`], { read: false, allowEmpty: true, })
+        const srcList = [`${mpBackupFolderPath}/pages/${indexName}`,
+        `${mpBackupFolderPath}/images/${indexName}`]
+        return gulp.src(srcList, { read: false, allowEmpty: true, })
             .pipe(rename((path) => {
                 console.log('==========rename path', path)
             }))
@@ -83,7 +85,16 @@ function backup2Mp() {
     const indexName = argOptions.name
     // 清空目标文件夹
     function handleClean() {
-        return gulp.src([`${mpFolderPath}/pages/index`, `${mpFolderPath}/images/${indexName}`], { read: false, allowEmpty: true, })
+        const fs = require("fs");
+        let files = fs.readdirSync(`${mpFolderPath}/images`)||[]
+        files = files.filter(item=>/index.*/.test(item))
+        files = files.filter(item=>item.indexOf('.')===-1)
+        console.log('==========files', files)
+        const srcList = [`${mpFolderPath}/pages/index`, `${mpFolderPath}/images/${indexName}`]
+        files.forEach(name=> {
+            srcList.push(`${mpFolderPath}/images/${name}`)
+        })
+        return gulp.src(srcList, { read: false, allowEmpty: true, })
             .pipe(rename((path) => {
                 console.log('==========rename path', path)
             }))
