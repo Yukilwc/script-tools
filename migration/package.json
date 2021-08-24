@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
-    "mp2Backup": "gulp mp2Backup",
-    "backup2Mp": "gulp backup2Mp"
+    "mp2Backup": "gulp mp2Backup --name index10",
+    "backup2Mp": "gulp backup2Mp --name index10"
   },
   "author": "",
   "license": "ISC",
