@@ -1,0 +1,52 @@
+[
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/project/web/etrans/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/project/web/etrans/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2021-09-13 14:35:37"
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/project/web/etrans/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/project/web/etrans/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2021-09-13 14:35:12"
+  }
+]
