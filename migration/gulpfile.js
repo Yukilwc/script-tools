@@ -16,6 +16,7 @@ const template = require('gulp-template')
 const mapStream = require('map-stream');
 const { matcher } = require('micromatch');
 const { listenerCount } = require('gulp');
+const prettier = require('gulp-prettier');
 const clean = require('gulp-clean');
 const
     {
@@ -54,6 +55,7 @@ function loggerTask() {
         .pipe(rename((path) => {
             console.log('==========rename path', path)
         }))
+        .pipe(prettier({singleQuote: true}))
         .pipe(
             gulp.dest('./src/')
         )
