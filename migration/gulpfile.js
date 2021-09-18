@@ -35,7 +35,6 @@ let logInfo = {
 
 }
 function loggerTask() {
-    console.log('========== loggerTask',)
     let originLog = require('./src/log.json')
     if (!originLog) originLog = []
     return gulp.src(['./src/log.json'])
@@ -44,6 +43,8 @@ function loggerTask() {
             mapStream((file, cb) => {
                 let fileContents = file.contents.toString()
                 logInfo.date = DateTime.formatToStr(new Date())
+                let argOptions = getArgOptions()
+                logInfo.argOptions = argOptions
                 originLog.unshift(logInfo)
                 let logContents = JSON.stringify(originLog)
                 fileContents = `\n${logContents}\n`
@@ -55,7 +56,7 @@ function loggerTask() {
         .pipe(rename((path) => {
             console.log('==========rename path', path)
         }))
-        .pipe(prettier({singleQuote: true}))
+        .pipe(prettier({ singleQuote: true }))
         .pipe(
             gulp.dest('./src/')
         )
@@ -72,7 +73,8 @@ function mp2Backup() {
     console.log('==========argOptions ', argOptions)
     if (!argOptions.name) throw new Error('参数错误')
     const indexName = argOptions.name
-    logInfo.type="mp2Backup"
+    logInfo = {}
+    // logInfo.type="mp2Backup"
     logInfo.indexName = indexName
     logInfo.mpFolderPath = mpFolderPath
     logInfo.mpBackupFolderPath = mpBackupFolderPath
@@ -141,10 +143,11 @@ function backup2Mp() {
     console.log('==========argOptions ', argOptions)
     if (!argOptions.name) throw new Error('参数错误')
     const indexName = argOptions.name
+    logInfo = {}
     logInfo.indexName = indexName
     logInfo.mpFolderPath = mpFolderPath
     logInfo.mpBackupFolderPath = mpBackupFolderPath
-    logInfo.type="backup2Mp"
+    // logInfo.type="backup2Mp"
     // 清空目标文件夹
     function handleClean() {
         const fs = require("fs");
