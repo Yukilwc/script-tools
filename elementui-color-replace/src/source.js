@@ -40,7 +40,9 @@ const source = [
     { name: '--theme-danger-disabled', value: '#fab6b6' },
     { name: '--theme-info-light', value: '#e9e9eb' },
     { name: '--theme-info-lighter', value: '#f4f4f5' },
-    { name: '--theme-info-disabled', value: '#c8c9cc' }
+    { name: '--theme-info-disabled', value: '#c8c9cc' },
+    // 补充
+    {name:'--theme-danger-light-2',value:'#f78989'}
 ]
 module.exports = {
     source
