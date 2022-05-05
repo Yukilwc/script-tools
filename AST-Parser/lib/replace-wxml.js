@@ -30,11 +30,11 @@ const rpWx = () => {
                     let valList = keyList.map(key => newEl.attr(key))
                     console.log('==========', keyList, valList)
                     console.log('==========type', el.type)
-                    if (el.type === 'text') {
+                    if (el.type === 'text' && newEl.text().trim()) {
                         console.log('==========text', newEl.text())
+                        newEl[0].data = '新内容'
                     }
                     newEl.attr("class", 'test')
-                    newEl[0].data = '新内容'
                     return newEl
                 })
                 // console.log('==========', $('body').html())
@@ -43,6 +43,7 @@ const rpWx = () => {
                 //     fileContents = fileContents.replace(reg, `var(${item.name})`
                 //     )
                 // })
+                // file.contents = Buffer.from(fileContents)
                 file.contents = Buffer.from($('body').html())
                 cb(null, file)
             })
