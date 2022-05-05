@@ -7,3 +7,7 @@
     <view class='' data-title='数据'></view>
 </view>
 <view class='dialog'></view>
+<!-- 注释 -->
+<!-- <view></view> -->
+<view>others</view>
+<!-- <view></view> -->
