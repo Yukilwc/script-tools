@@ -1,4 +1,4 @@
-
+// 正则方案，优先匹配双花括号，之后再一轮匹配非
 import { series, parallel, src, dest } from 'gulp'
 const cheerio = require('cheerio')
 const mapStream = require('map-stream');
