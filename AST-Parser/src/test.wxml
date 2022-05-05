@@ -1,0 +1,9 @@
+<view class='container'>
+    <view class=''>{{'内容字面量'}}</view>
+    <view class=''>内容文本</view>
+    <input placeholder="空白占位"></input>
+    <input placeholder="{{true?'空白占位一':'空白占位二'}}"></input>
+    <view class='' data-title='{{数据}}'></view>
+    <view class='' data-title='数据'></view>
+</view>
+<view class='dialog'></view>

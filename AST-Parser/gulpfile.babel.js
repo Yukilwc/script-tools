@@ -1,7 +1,1 @@
-// import { } from "./lib/replace-wxml"
-const rpWx = () => {
-    console.log('==========rpWx ',)
-}
-export {
-    rpWx
-}
+export { rpWx } from "./lib/replace-wxml"
