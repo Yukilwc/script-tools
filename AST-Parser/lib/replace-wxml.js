@@ -1,6 +1,6 @@
 
 import { series, parallel, src, dest } from 'gulp'
-import { Cheerio } from 'cheerio'
+const cheerio = require('cheerio')
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
 import path from 'path'
@@ -15,19 +15,35 @@ const rpWx = () => {
     console.log('==========rpWx ',)
     let srcPath = path.resolve(__dirname, "../src/**/*.wxml")
     let destPath = path.resolve(__dirname, "../src/")
-    console.log('==========',srcPath)
-    console.log('==========',destPath)
+    console.log('==========', srcPath)
+    console.log('==========', destPath)
     return src([srcPath], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
+                let $ = cheerio.load(fileContents)
+                $('body *').contents().map((i, el) => {
+                    // console.log('==========item', $(el))
+                    console.log('==========item', i)
+                    let newEl = $(el)
+                    let keyList = Object.keys(el.attribs || {})
+                    let valList = keyList.map(key => newEl.attr(key))
+                    console.log('==========', keyList, valList)
+                    console.log('==========type', el.type)
+                    if (el.type === 'text') {
+                        console.log('==========text', newEl.text())
+                    }
+                    newEl.attr("class", 'test')
+                    newEl[0].data = '新内容'
+                    return newEl
+                })
+                // console.log('==========', $('body').html())
                 // source.forEach(item => {
                 //     let reg = new RegExp(item.value, 'gi')
                 //     fileContents = fileContents.replace(reg, `var(${item.name})`
                 //     )
                 // })
-                fileContents += "\n<view></view>"
-                file.contents = Buffer.from(fileContents)
+                file.contents = Buffer.from($('body').html())
                 cb(null, file)
             })
 
