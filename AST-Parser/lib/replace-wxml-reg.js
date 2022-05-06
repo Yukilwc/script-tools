@@ -25,7 +25,7 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
+                fileContents = handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 cb(null, file)
             })
