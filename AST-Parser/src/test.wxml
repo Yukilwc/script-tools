@@ -6,7 +6,7 @@
     </view>
     <input placeholder="空白占位"></input>
     <input placeholder="{{true?'空白占位一':'空白占位二'}}"></input>
-    <view class='' data-title='{{数据}}'  data-name="有意向">
+    <view class='' data-title='{{"数据"}}' data-name="有意向">
         <image class='searchImg' src='/images/search.png'></image>
     </view>
     <view class='' data-title='数据'></view>

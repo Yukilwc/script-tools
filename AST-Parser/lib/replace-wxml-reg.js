@@ -43,7 +43,18 @@ const handleMustache = (str = '') => {
                 let cnStr = quoteStr.substring(1, quoteStr.length - 1)
                 console.log('==========cnStr', cnStr)
                 let matchKey = getKeyByCh(cnStr)
-                return quoteStr
+                if (!matchKey || matchKey === cnStr) {
+                    return quoteStr
+                }
+                else {
+                    if (quote) {
+                        return `i18n.t('${matchKey}',$_locale)`
+
+                    }
+                    else {
+                        return `i18n.t("${matchKey}",$_locale)`
+                    }
+                }
             }
             else {
                 return quoteStr
@@ -51,6 +62,7 @@ const handleMustache = (str = '') => {
         })
         return mustacheRes
     })
+    console.log('==========handleMustache end', res)
     return res
 }
 const getKeyByCh = () => {
