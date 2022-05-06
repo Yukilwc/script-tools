@@ -20,12 +20,13 @@ const logJsonTitle = () => {
     console.log('==========insertWxs',)
     let srcPath = globFilter(path.resolve(targetPath, "./**/*.json"))
     let destPath = globFilter(path.resolve(targetPath, "./"))
-    let ext1 = globFilter(path.resolve(targetPath, "./node_modules/"))
-    let ext2 = globFilter(path.resolve(targetPath, "./.git/"))
+    let ext1 = globFilter(path.resolve(targetPath, "./node_modules/")) + '/**'
+    let ext2 = globFilter(path.resolve(targetPath, "./.git/")) + '/**'
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
     console.log('==========extList', ext1, ext2)
-    return src(["D:/glob/", "!(D:/glob/node_modules)"], { allowEmpty: true })
+    // return src(["D:/glob/**/*.json", "!D:/glob/node_modules/**"], { allowEmpty: true })
+    return src([srcPath, `!${ext1}`, `!${ext2}`], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()
