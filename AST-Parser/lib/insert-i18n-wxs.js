@@ -12,21 +12,34 @@ const getArgOptions = () => {
 
 const insertWxs = () => {
     console.log('==========insertWxs',)
+    let wxsFilePath = path.resolve(__dirname, "../src/locales.wxs")
     let srcPath = path.resolve(__dirname, "../src/**/*.wxml")
     let destPath = path.resolve(__dirname, "../src/")
-    console.log('==========', srcPath)
-    console.log('==========', destPath)
+    console.log('========== srcPath', srcPath)
+    console.log('========== destPath', destPath)
+    console.log('==========wxsFilePath', wxsFilePath)
     return src([srcPath], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
+                let relativePath = path.relative(file.path, wxsFilePath)
+                // console.log('==========file.path', file.path)
                 let fileContents = file.contents.toString()
+                if (fileContents.indexOf("module=\"i18n\"") !== -1) {
+                    console.log('==========已经引入wxs模块',)
+                }
+                else {
+                    console.log('==========relativePath', relativePath)
+                    fileContents = `<wxs src=\"${relativePath}\" module=\"i18n\" />\n` + fileContents
+                    file.contents = new Buffer.from(fileContents)
+                }
+
                 file.contents = Buffer.from(fileContents)
                 cb(null, file)
             })
 
         )
         .pipe(rename((path) => {
-            console.log('==========rename path', path)
+            // console.log('==========rename path', path)
         })).pipe(
             dest(destPath)
         )
