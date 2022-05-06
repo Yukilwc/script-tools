@@ -39,14 +39,14 @@ const rpWx = () => {
 }
 // 处理mustache的变量
 const handleMustache = (str = '') => {
-    console.log('==========handleMustache start',)
+    // console.log('==========handleMustache start',)
     let res = str.replace(/{{.*}}/g, (mustacheStr) => {
-        console.log('==========mustacheStr:', mustacheStr)
+        // console.log('==========mustacheStr:', mustacheStr)
         let mustacheRes = mustacheStr.replace(/('.*?')|(".*?")/g, (quoteStr, quote, dbQuote) => {
-            console.log('==========quoteStr', quoteStr)
+            // console.log('==========quoteStr', quoteStr)
             if (hasCnChar(quoteStr)) {
                 let cnStr = quoteStr.substring(1, quoteStr.length - 1)
-                console.log('==========cnStr', cnStr)
+                // console.log('==========cnStr', cnStr)
                 let matchKey = getKeyByCh(cnStr)
                 if (!matchKey || matchKey === cnStr) {
                     matchKey = "tempdic." + getPinyin(cnStr)
@@ -65,16 +65,16 @@ const handleMustache = (str = '') => {
         })
         return mustacheRes
     })
-    console.log('==========handleMustache end', res)
+    // console.log('==========handleMustache end', res)
     return res
 }
 // 处理非mustache的属性字面量
 const handleAttrLiteral = (str = '') => {
-    console.log('==========handleAttrLiteral start ',)
+    // console.log('==========handleAttrLiteral start ',)
     let res = str.replace(/('.*?')|(".*?")/g, (quoteStr, quote, dbQuote) => {
         if (hasCnChar(quoteStr)) {
             let cnStr = quoteStr.substring(1, quoteStr.length - 1)
-            console.log('==========quoteStr', quoteStr)
+            // console.log('==========quoteStr', quoteStr)
             let matchKey = getKeyByCh(cnStr)
             if (!matchKey || matchKey === cnStr) {
                 matchKey = "tempdic." + getPinyin(cnStr)
@@ -84,14 +84,14 @@ const handleAttrLiteral = (str = '') => {
         }
         else return quoteStr
     })
-    console.log('==========handleAttrLiteral end', res)
+    // console.log('==========handleAttrLiteral end', res)
     return res
 }
 // 处理非mustache的内容面量
 const handleTextLiteral = (str = '') => {
-    console.log('==========handleTextLiteral start ',)
+    // console.log('==========handleTextLiteral start ',)
     let res = str.replace(/[\u4e00-\u9fa5]+/g, (cnStr) => {
-        console.log('==========cnStr', cnStr)
+        // console.log('==========cnStr', cnStr)
         let matchKey = getKeyByCh(cnStr)
         if (!matchKey || matchKey === cnStr) {
             matchKey = "tempdic." + getPinyin(cnStr)
@@ -99,7 +99,7 @@ const handleTextLiteral = (str = '') => {
         return `{{i18n.t('${matchKey}',$_locale)}}`
 
     })
-    console.log('==========handleTextLiteral end', res)
+    // console.log('==========handleTextLiteral end', res)
     return res
 
 }
