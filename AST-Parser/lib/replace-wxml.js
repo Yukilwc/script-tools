@@ -30,11 +30,11 @@ const rpWx = () => {
                     let valList = keyList.map(key => newEl.attr(key))
                     console.log('==========', keyList, valList)
                     console.log('==========type', el.type)
-                    if (el.type === 'text' && newEl.text().trim()) {
-                        console.log('==========text', newEl.text())
-                        newEl[0].data = '新内容'
-                    }
-                    newEl.attr("class", 'test')
+                    // if (el.type === 'text' && newEl.text().trim()) {
+                    //     console.log('==========text', newEl.text())
+                    //     newEl[0].data = '新内容'
+                    // }
+                    // newEl.attr("class", 'test')
                     return newEl
                 })
                 // console.log('==========', $('body').html())
