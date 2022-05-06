@@ -35,10 +35,30 @@ const rpWx = () => {
 }
 const handleMustache = (str = '') => {
     console.log('==========handleMustache start',)
-    str.replace(/{{.*}}/g,(mustacheStr)=>{
-        console.log('==========mustacheStr:',mustacheStr)
+    let res = str.replace(/{{.*}}/g, (mustacheStr) => {
+        console.log('==========mustacheStr:', mustacheStr)
+        let mustacheRes = mustacheStr.replace(/('.*?')|(".*?")/g, (quoteStr, quote, dbQuote) => {
+            console.log('==========quoteStr', quoteStr)
+            if (hasCnChar(quoteStr)) {
+                let cnStr = quoteStr.substring(1, quoteStr.length - 1)
+                console.log('==========cnStr', cnStr)
+                let matchKey = getKeyByCh(cnStr)
+                return quoteStr
+            }
+            else {
+                return quoteStr
+            }
+        })
+        return mustacheRes
     })
-    return str
+    return res
+}
+const getKeyByCh = () => {
+    return 'key'
+}
+const hasCnChar = (str = '') => {
+    if (/[\u4e00-\u9fa5]+/g.test(str)) return true
+    else return false
 }
 const handleLiteral = (str) => {
     return str

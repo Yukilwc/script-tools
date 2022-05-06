@@ -1,5 +1,5 @@
 <view class='container'>
-    <view class='c-1'>{{'内容字面量'+"内容字面量2"}}</view>
+    <view class='c-1'>{{'内容字面量'+"内容字面量2"}}"" ''</view>
     <view class=''>
         行内元素
         <text>内容文本一<text>内容文本二<text>内容文本三</text></text></text>
