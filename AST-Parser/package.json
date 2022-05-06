@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "rpWx": "gulp rpWx"
+    "rpWx": "gulp rpWx",
+    "insertWxs": "gulp insertWxs"
   },
   "author": "",
   "license": "ISC",
