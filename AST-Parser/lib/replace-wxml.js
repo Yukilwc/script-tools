@@ -37,14 +37,14 @@ const rpWx = () => {
                     // newEl.attr("class", 'test')
                     return newEl
                 })
-                // console.log('==========', $('body').html())
+                console.log('==========', $('body').html())
                 // source.forEach(item => {
                 //     let reg = new RegExp(item.value, 'gi')
                 //     fileContents = fileContents.replace(reg, `var(${item.name})`
                 //     )
                 // })
-                // file.contents = Buffer.from(fileContents)
-                file.contents = Buffer.from($('body').html())
+                file.contents = Buffer.from(fileContents)
+                // file.contents = Buffer.from($('body').html())
                 cb(null, file)
             })
 
