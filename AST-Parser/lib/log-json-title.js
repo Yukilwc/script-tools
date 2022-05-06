@@ -13,22 +13,27 @@ const getArgOptions = () => {
 
 const logJsonTitle = () => {
     console.log('==========insertWxs',)
-    let srcPath = path.resolve(targetPath, "./**/*.json")
-    let destPath = path.resolve(targetPath, "./")
+    let srcPath = path.resolve(targetPath, "./**/*.json").replace(/\\/g, '/')
+    let destPath = path.resolve(targetPath, "./").replace(/\\/g, '/')
+    let ext1 = "!" + path.resolve(targetPath, "./node_modules/").replace(/\\/g, '/') + '/'
+    let ext2 = "!" + path.resolve(targetPath, "./.git/").replace(/\\/g, '/') + '/'
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
-    return src([srcPath, '!node_modules/', '!.git/'], { allowEmpty: true })
-        // .pipe(
-        //     mapStream(function (file, cb) {
-        //         let fileContents = file.contents.toString()
-        //         file.contents = Buffer.from(fileContents)
-        //         cb(null, file)
-        //     })
+    console.log('==========extList', ext1, ext2)
+    return src([srcPath, ext1, ext2], { allowEmpty: true })
+        .pipe(
+            mapStream(function (file, cb) {
+                // let fileContents = file.contents.toString()
+                // file.contents = Buffer.from(fileContents)
+                // console.log('==========file.path', file.path)
+                cb(null, file)
+            })
 
-        // )
+        )
         .pipe(rename((path) => {
-            console.log('==========rename path', path)
+            // console.log('==========rename path', path)
         })).pipe(
+
             dest(destPath)
         )
 }
