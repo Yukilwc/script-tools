@@ -43,8 +43,8 @@ const rpWx = () => {
                 //     fileContents = fileContents.replace(reg, `var(${item.name})`
                 //     )
                 // })
-                // file.contents = Buffer.from(fileContents)
-                file.contents = Buffer.from($('body').html())
+                file.contents = Buffer.from(fileContents)
+                // file.contents = Buffer.from($('body').html())
                 cb(null, file)
             })
 
