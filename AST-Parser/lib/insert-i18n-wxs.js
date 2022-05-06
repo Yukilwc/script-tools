@@ -2,6 +2,10 @@ import { series, parallel, src, dest } from 'gulp'
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
 import path from 'path'
+import {
+    globFilter,
+    globListFilter
+} from '../tools/index'
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -21,7 +25,7 @@ const insertWxs = () => {
     return src([srcPath], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
-                let relativePath = path.relative(file.path, wxsFilePath)
+                let relativePath = globFilter(path.relative(file.path, wxsFilePath))
                 // console.log('==========file.path', file.path)
                 let fileContents = file.contents.toString()
                 if (fileContents.indexOf("module=\"i18n\"") !== -1) {

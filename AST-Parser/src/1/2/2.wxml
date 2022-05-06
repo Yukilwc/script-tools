@@ -1,3 +1,2 @@
-<wxs src="..\..\..\locales.wxs" module="i18n" />
-
+<wxs src="../../../locales.wxs" module="i18n" />
 <view class=''>2</view>

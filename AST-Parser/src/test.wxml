@@ -1,4 +1,4 @@
-<wxs src="..\locales.wxs" module="i18n" />
+<wxs src="../locales.wxs" module="i18n" />
 <view class='container'>
     <view class='c-1'>{{'内容字面量'+"内容字面量2"}}"" ''</view>
     <view class=''>
