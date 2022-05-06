@@ -2,6 +2,7 @@
 import { series, parallel, src, dest } from 'gulp'
 const cheerio = require('cheerio')
 const mapStream = require('map-stream');
+import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
 import path from 'path'
 // 获取命令行参数
@@ -10,6 +11,9 @@ const getArgOptions = () => {
     var options = minimist(process.argv.slice(2));
     return options
 
+}
+const getPinyin = (str) => {
+    return pinyin(str, { toneType: 'none', type: 'array' }).join('')
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
@@ -45,16 +49,14 @@ const handleMustache = (str = '') => {
                 console.log('==========cnStr', cnStr)
                 let matchKey = getKeyByCh(cnStr)
                 if (!matchKey || matchKey === cnStr) {
-                    return quoteStr
+                    matchKey = "tempdic." + getPinyin(cnStr)
+                }
+                if (quote) {
+                    return `i18n.t('${matchKey}',$_locale)`
+
                 }
                 else {
-                    if (quote) {
-                        return `i18n.t('${matchKey}',$_locale)`
-
-                    }
-                    else {
-                        return `i18n.t("${matchKey}",$_locale)`
-                    }
+                    return `i18n.t("${matchKey}",$_locale)`
                 }
             }
             else {
@@ -75,12 +77,10 @@ const handleAttrLiteral = (str = '') => {
             console.log('==========quoteStr', quoteStr)
             let matchKey = getKeyByCh(cnStr)
             if (!matchKey || matchKey === cnStr) {
-                return quoteStr
+                matchKey = "tempdic." + getPinyin(cnStr)
             }
-            else {
-                return `"{{i18n.t('${matchKey}',$_locale)}}"`
+            return `"{{i18n.t('${matchKey}',$_locale)}}"`
 
-            }
         }
         else return quoteStr
     })
@@ -94,12 +94,10 @@ const handleTextLiteral = (str = '') => {
         console.log('==========cnStr', cnStr)
         let matchKey = getKeyByCh(cnStr)
         if (!matchKey || matchKey === cnStr) {
-            return cnStr
+            matchKey = "tempdic." + getPinyin(cnStr)
         }
-        else {
-            return `{{i18n.t('${matchKey}',$_locale)}}`
+        return `{{i18n.t('${matchKey}',$_locale)}}`
 
-        }
     })
     console.log('==========handleTextLiteral end', res)
     return res
@@ -107,7 +105,7 @@ const handleTextLiteral = (str = '') => {
 }
 // 接入dictionary
 const getKeyByCh = () => {
-    return 'key'
+    return ''
 }
 const hasCnChar = (str = '') => {
     if (/[\u4e00-\u9fa5]+/g.test(str)) return true
