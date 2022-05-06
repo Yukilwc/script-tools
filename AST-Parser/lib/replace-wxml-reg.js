@@ -104,8 +104,12 @@ const handleTextLiteral = (str = '') => {
 
 }
 // 接入dictionary
-const getKeyByCh = () => {
-    return ''
+const getKeyByCh = (ch) => {
+    if (ch === '数据') {
+        return 'common.shuju'
+    }
+    else
+        return ''
 }
 const hasCnChar = (str = '') => {
     if (/[\u4e00-\u9fa5]+/g.test(str)) return true
