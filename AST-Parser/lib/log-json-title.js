@@ -20,12 +20,12 @@ const logJsonTitle = () => {
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
     console.log('==========extList', ext1, ext2)
-    return src([srcPath, ext1, ext2], { allowEmpty: true })
+    return src([srcPath, ext1], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()
                 // file.contents = Buffer.from(fileContents)
-                // console.log('==========file.path', file.path)
+                console.log('==========file.path', file.path)
                 cb(null, file)
             })
 
