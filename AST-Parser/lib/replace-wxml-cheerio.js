@@ -21,15 +21,15 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                let $ = cheerio.load(fileContents, { xmlMode: false})
+                let $ = cheerio.load(fileContents, { xmlMode: false, decodeEntities: true})
                 $('body *').contents().map((i, el) => {
                     // console.log('==========item', $(el))
                     console.log('==========item', i)
                     let newEl = $(el)
                     let keyList = Object.keys(el.attribs || {})
                     let valList = keyList.map(key => newEl.attr(key))
-                    console.log('==========', keyList, valList)
-                    console.log('==========type', el.type)
+                    // console.log('==========', keyList, valList)
+                    console.log('==========type', el.type, el.name)
                     // if (el.type === 'text' && newEl.text().trim()) {
                     //     console.log('==========text', newEl.text())
                     //     newEl[0].data = '新内容'
