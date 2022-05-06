@@ -21,7 +21,7 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                let $ = cheerio.load(fileContents)
+                let $ = cheerio.load(fileContents, { xmlMode: false})
                 $('body *').contents().map((i, el) => {
                     // console.log('==========item', $(el))
                     console.log('==========item', i)
