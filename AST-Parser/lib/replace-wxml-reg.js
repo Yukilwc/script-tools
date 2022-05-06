@@ -13,7 +13,9 @@ const getArgOptions = () => {
 
 }
 const getPinyin = (str) => {
-    return pinyin(str, { toneType: 'none', type: 'array' }).join('')
+    let py = pinyin(str, { toneType: 'none', type: 'array' }).join('').substring(0,30)
+    console.log('==========getPinyin', str, py)
+    return py
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
@@ -25,7 +27,8 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                fileContents = handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
+                // fileContents = 
+                handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 cb(null, file)
             })
