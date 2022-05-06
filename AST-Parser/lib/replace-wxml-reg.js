@@ -21,7 +21,7 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                handleLiteral(handleMustache(fileContents))
+                handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 cb(null, file)
             })
@@ -33,6 +33,7 @@ const rpWx = () => {
             dest(destPath)
         )
 }
+// 处理mustache的变量
 const handleMustache = (str = '') => {
     console.log('==========handleMustache start',)
     let res = str.replace(/{{.*}}/g, (mustacheStr) => {
@@ -65,6 +66,14 @@ const handleMustache = (str = '') => {
     console.log('==========handleMustache end', res)
     return res
 }
+// 处理非mustache的属性字面量
+const handleAttrLiteral = (str) => {
+    return str
+}
+// 处理非mustache的内容面量
+const handleTextLiteral = (str) => {
+    return str
+}
 const getKeyByCh = () => {
     return 'key'
 }
@@ -72,9 +81,7 @@ const hasCnChar = (str = '') => {
     if (/[\u4e00-\u9fa5]+/g.test(str)) return true
     else return false
 }
-const handleLiteral = (str) => {
-    return str
-}
+
 
 export {
     rpWx
