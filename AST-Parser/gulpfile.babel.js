@@ -1,1 +1,1 @@
-export { rpWx } from "./lib/replace-wxml"
+export { rpWx } from "./lib/replace-wxml-reg"

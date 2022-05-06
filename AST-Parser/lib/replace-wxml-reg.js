@@ -21,30 +21,8 @@ const rpWx = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                let $ = cheerio.load(fileContents)
-                $('body *').contents().map((i, el) => {
-                    // console.log('==========item', $(el))
-                    console.log('==========item', i)
-                    let newEl = $(el)
-                    let keyList = Object.keys(el.attribs || {})
-                    let valList = keyList.map(key => newEl.attr(key))
-                    console.log('==========', keyList, valList)
-                    console.log('==========type', el.type)
-                    if (el.type === 'text' && newEl.text().trim()) {
-                        console.log('==========text', newEl.text())
-                        newEl[0].data = '新内容'
-                    }
-                    newEl.attr("class", 'test')
-                    return newEl
-                })
-                // console.log('==========', $('body').html())
-                // source.forEach(item => {
-                //     let reg = new RegExp(item.value, 'gi')
-                //     fileContents = fileContents.replace(reg, `var(${item.name})`
-                //     )
-                // })
-                // file.contents = Buffer.from(fileContents)
-                file.contents = Buffer.from($('body').html())
+                handleLiteral(handleMustache(fileContents))
+                file.contents = Buffer.from(fileContents)
                 cb(null, file)
             })
 
@@ -55,6 +33,17 @@ const rpWx = () => {
             dest(destPath)
         )
 }
+const handleMustache = (str = '') => {
+    console.log('==========handleMustache start',)
+    str.replace(/{{.*}}/g,(mustacheStr)=>{
+        console.log('==========mustacheStr:',mustacheStr)
+    })
+    return str
+}
+const handleLiteral = (str) => {
+    return str
+}
+
 export {
     rpWx
 }
