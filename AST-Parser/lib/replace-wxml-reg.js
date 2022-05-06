@@ -67,11 +67,28 @@ const handleMustache = (str = '') => {
     return res
 }
 // 处理非mustache的属性字面量
-const handleAttrLiteral = (str) => {
-    return str
+const handleAttrLiteral = (str = '') => {
+    console.log('==========handleAttrLiteral start ',)
+    let res = str.replace(/('.*?')|(".*?")/g, (quoteStr, quote, dbQuote) => {
+        if (hasCnChar(quoteStr)) {
+            let cnStr = quoteStr.substring(1, quoteStr.length - 1)
+            console.log('==========quoteStr', quoteStr)
+            let matchKey = getKeyByCh(cnStr)
+            if (!matchKey || matchKey === cnStr) {
+                return quoteStr
+            }
+            else {
+                return `"{{i18n.t('${matchKey}',$_locale)}}"`
+
+            }
+        }
+        else return quoteStr
+    })
+    console.log('==========handleAttrLiteral end', res)
+    return res
 }
 // 处理非mustache的内容面量
-const handleTextLiteral = (str) => {
+const handleTextLiteral = (str = '') => {
     return str
 }
 const getKeyByCh = () => {

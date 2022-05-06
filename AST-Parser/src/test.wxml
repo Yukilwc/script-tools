@@ -2,16 +2,16 @@
     <view class='c-1'>{{'内容字面量'+"内容字面量2"}}"" ''</view>
     <view class=''>
         行内元素
-        <text>内容文本一<text>内容文本二<text>内容文本三</text></text></text>
+        <text>内容文本1<text>内容文本二<text>内容文本三</text></text></text>
     </view>
-    <input placeholder="空白占位"></input>
+    <input placeholder="空白占1位"></input>
     <input placeholder="{{true?'空白占位一':'空白占位二'}}"></input>
     <view class='' data-title='{{"数据"}}' data-name="有意向">
         <image class='searchImg' src='/images/search.png'></image>
     </view>
     <view class='' data-title='数据'></view>
 </view>
-查询出{{total}}条数据
+查询出{{total}}条数z据
 <view class='dialog'></view>
 <!-- 注释 -->
 <!-- <view></view> -->
