@@ -1,0 +1,22 @@
+/*
+ * @Author: 李文超
+ * @Date: 2021-04-19 17:20:16
+ * @LastEditors: 李文超
+ * @LastEditTime: 2021-04-19 17:30:22
+ * @Description: file content
+ 
+ */
+var translations  = <%= data %>
+var fallbackLocale = 'zh-CN';
+var Interpreter = function (r) {
+    var i = ""; function f(r, n) { return r ? "string" == typeof r ? r : r.reduce(function (r, t) { return r.concat([function (n, e) { if (e = e || {}, "string" == typeof n) return n; if (n[2] && "object" == typeof n[2]) { var r = Object.keys(n[2]).reduce(function (r, t) { return r[t] = f(n[2][t], e), r }, {}), t = r[e[0]], u = e[n[0]]; return void 0 !== u ? r[u.toString()] || r.other || i : t || r.other || i } if ("object" == typeof n && 0 < n.length) { return function r(t, n, e) { void 0 === e && (e = 0); if (!n || !t || t.length <= 0) return ""; var n = n[t[e]]; if ("string" == typeof n) return n; if ("number" == typeof n) return n.toString(); if (!n) return "{" + t.join(".") + "}"; return r(t, n, ++e) }(n[0].split("."), e, 0) } return "" }(t, n)]) }, []).join("") : i } function c(r, t, n) {
+        t = r[t]; if (!t) return n; t = t[n]; return t || n
+    } return r.getMessageInterpreter =
+        function (i, o) {
+            function e(r, t, n) {
+                var e, u; return f((e = r, u = o, (n = (r = i)[n = n]) && (n = n[e]) || c(r, u, e)), t)
+            } return function (r, t, n) { return 2 === arguments.length ? e(r, null, t) : 3 !== arguments.length ? "" : e(r, t, n) }
+        }, r
+}({});
+
+module.exports.t = Interpreter.getMessageInterpreter(translations, fallbackLocale)
