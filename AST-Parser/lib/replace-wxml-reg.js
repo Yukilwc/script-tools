@@ -89,8 +89,23 @@ const handleAttrLiteral = (str = '') => {
 }
 // 处理非mustache的内容面量
 const handleTextLiteral = (str = '') => {
-    return str
+    console.log('==========handleTextLiteral start ',)
+    let res = str.replace(/[\u4e00-\u9fa5]+/g, (cnStr) => {
+        console.log('==========cnStr', cnStr)
+        let matchKey = getKeyByCh(cnStr)
+        if (!matchKey || matchKey === cnStr) {
+            return cnStr
+        }
+        else {
+            return `{{i18n.t('${matchKey}',$_locale)}}`
+
+        }
+    })
+    console.log('==========handleTextLiteral end', res)
+    return res
+
 }
+// 接入dictionary
 const getKeyByCh = () => {
     return 'key'
 }

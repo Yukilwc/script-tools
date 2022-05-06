@@ -14,7 +14,7 @@
 查询出{{total}}条数z据
 <view class='dialog'></view>
 <!-- 注释 -->
-<!-- <view></view> -->
+<!-- <view>注释 </view> -->
 <view>others</view>
 <!-- <view></view> -->
 文本
