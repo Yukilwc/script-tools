@@ -4,6 +4,8 @@ const cheerio = require('cheerio')
 const mapStream = require('map-stream');
 import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
+// const chalk = require('chalk')
+import chalk from 'chalk';
 import path from 'path'
 import { getKeyByCh } from '../lang/dictionary'
 import {
@@ -169,7 +171,7 @@ const doLog = async () => {
         }
     })
     if (filterList.length > 0) {
-        console.error('==========there are some match key in navTitle,please edit theme:',)
+        console.log(chalk.red("==========there are some match key in navTitle,please edit theme:"))
         console.log('==========', filterList)
     }
     return true
