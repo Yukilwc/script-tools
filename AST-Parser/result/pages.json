@@ -160,14 +160,6 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\components\\TransparentNavbarNew\\index.wxml"
   },
   {
-    "navigationBarTitleText": "",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\lib\\ec-canvas",
-    "baseName": "ec-canvas",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\lib\\ec-canvas\\ec-canvas.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\lib\\ec-canvas\\ec-canvas.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\lib\\ec-canvas\\ec-canvas.wxml"
-  },
-  {
     "navigationBarTitleText": "推荐运价",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\APASlist",
     "baseName": "APASlist",
@@ -648,14 +640,6 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\versions\\versions.wxml"
   },
   {
-    "navigationBarTitleText": " ",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\webview",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\webview\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\webview\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\webview\\index.wxml"
-  },
-  {
     "navigationBarTitleText": "",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\Banner",
     "baseName": "index",
@@ -673,19 +657,19 @@
   },
   {
     "navigationBarTitleText": "",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxNumberInput",
     "baseName": "index",
     "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxNumberInput\\index.json",
     "jsPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxNumberInput\\index.js",
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxNumberInput\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.wxml"
   },
   {
     "navigationBarTitleText": "",
@@ -744,20 +728,20 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\cyclopedia\\cyclopedia.wxml"
   },
   {
-    "navigationBarTitleText": "危险品",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous",
-    "baseName": "hazardous",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.wxml"
-  },
-  {
     "navigationBarTitleText": "冷藏温度 ",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\freeze",
     "baseName": "freeze",
     "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\freeze\\freeze.json",
     "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\freeze\\freeze.js",
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\freeze\\freeze.wxml"
+  },
+  {
+    "navigationBarTitleText": "危险品",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous",
+    "baseName": "hazardous",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageB\\pages\\hazardous\\hazardous.wxml"
   },
   {
     "navigationBarTitleText": "危险品详情",
@@ -1000,6 +984,22 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeedit\\fzrsurchargeedit.wxml"
   },
   {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "我的运价订阅",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.wxml"
+  },
+  {
     "navigationBarTitleText": "整箱进口详情",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\importFcl\\fcldetail",
     "baseName": "fcldetail",
@@ -1024,20 +1024,12 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\importFcl\\fclsearch\\fclsearch.wxml"
   },
   {
-    "navigationBarTitleText": "",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "我的运价订阅",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.wxml"
+    "navigationBarTitleText": "拼箱详情",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail",
+    "baseName": "lclDetail",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.wxml"
   },
   {
     "navigationBarTitleText": "设置",
@@ -1046,14 +1038,6 @@
     "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclEdit\\lclEdit.json",
     "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclEdit\\lclEdit.js",
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclEdit\\lclEdit.wxml"
-  },
-  {
-    "navigationBarTitleText": "拼箱详情",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail",
-    "baseName": "lclDetail",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.wxml"
   },
   {
     "navigationBarTitleText": "费用设置",
@@ -1120,6 +1104,38 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\lclProgressive\\lclSearch\\lclSearch.wxml"
   },
   {
+    "navigationBarTitleText": "报价单",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "运价列表",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "SPOT运价",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "港口搜索",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.wxml"
+  },
+  {
     "navigationBarTitleText": "海外代理费用",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\overseasAgentCharge\\detail",
     "baseName": "index",
@@ -1166,38 +1182,6 @@
     "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\tracking\\search\\index.json",
     "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\tracking\\search\\index.js",
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\tracking\\search\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "报价单",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "运价列表",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "SPOT运价",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.wxml"
-  },
-  {
-    "navigationBarTitleText": "港口搜索",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch",
-    "baseName": "index",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.wxml"
   },
   {
     "navigationBarTitleText": "供应商详情",

@@ -9,7 +9,7 @@ import {
     globListFilter
 } from '../tools/index'
 
-import { currentPath, targetPath, ext1, ext2, ext3 } from './path';
+import { currentPath, targetPath, extJson, commonExt } from './path';
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -44,7 +44,7 @@ const readTitle = () => {
     console.log('========== destPath', destPath)
     // console.log('==========extList', ext1, ext2)
     // return src(["D:/glob/**/*.json", "!D:/glob/node_modules/**"], { allowEmpty: true })
-    return src([srcPath, ext1, ext2, ext3], { allowEmpty: true })
+    return src([srcPath, ...commonExt, extJson], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()

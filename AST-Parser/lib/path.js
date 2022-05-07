@@ -11,4 +11,7 @@ export const targetPath = `D:\\workspace\\ForTest\\etransmp3\\`
 
 export const ext1 = '!' + globFilter(path.resolve(targetPath, "./node_modules/")) + '/**'
 export const ext2 = '!' + globFilter(path.resolve(targetPath, "./.git/")) + '/**'
-export const ext3 = '!' + globFilter(path.resolve(targetPath, "./*.json"))
+export const ext3 = '!' + globFilter(path.resolve(targetPath, "./lib/")) + '/**'
+export const ext4 = '!' + globFilter(path.resolve(targetPath, "./pages/webview")) + '/**'
+export const commonExt = [ext1, ext2, ext3, ext4]
+export const extJson = '!' + globFilter(path.resolve(targetPath, "./*.json"))

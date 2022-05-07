@@ -6,6 +6,7 @@ import {
     globFilter,
     globListFilter
 } from '../tools/index'
+import { currentPath, targetPath, commonExt } from './path';
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -16,17 +17,17 @@ const getArgOptions = () => {
 
 const insertWxs = () => {
     console.log('==========insertWxs',)
-    let wxsFilePath = path.resolve(__dirname, "../src/locales.wxs")
-    let srcPath = path.resolve(__dirname, "../src/**/*.wxml")
-    let destPath = path.resolve(__dirname, "../src/")
+    let wxsFilePath = path.resolve(targetPath, "./lang/locales.wxs")
+    let srcPath = globFilter(path.resolve(targetPath, "./**/*.wxml"))
+    let destPath = globFilter(path.resolve(targetPath, "./"))
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
     console.log('==========wxsFilePath', wxsFilePath)
-    return src([srcPath], { allowEmpty: true })
+    return src([srcPath, ...commonExt], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
-                let relativePath = globFilter(path.relative(file.path, wxsFilePath))
-                // console.log('==========file.path', file.path)
+                let relativePath = globFilter(path.relative(path.dirname(file.path), wxsFilePath))
+                console.log('==========file.path', file.path)
                 let fileContents = file.contents.toString()
                 if (fileContents.indexOf("module=\"i18n\"") !== -1) {
                     console.log('==========已经引入wxs模块',)
