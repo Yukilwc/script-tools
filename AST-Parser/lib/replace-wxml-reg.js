@@ -38,9 +38,10 @@ const rpWxTask = () => {
     console.log('==========rpWx ',)
     translateList = []
     notTranslateList = []
-    // FIXME:
-    let srcPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/**/*.wxml"))
-    let destPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/"))
+    // FIXME:修改此处调整翻译路径
+    const commonPath = './packageA/pages/lcl'
+    let srcPath = globFilter(path.resolve(targetPath, `${commonPath}/**/*.wxml`))
+    let destPath = globFilter(path.resolve(targetPath, `${commonPath}/`))
     console.log('==========', srcPath)
     console.log('==========', destPath)
     return src([srcPath, ...commonExt], { allowEmpty: true })
