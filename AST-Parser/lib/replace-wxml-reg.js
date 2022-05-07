@@ -159,6 +159,19 @@ const addNotTranslateItem = (item) => {
 const doLog = async () => {
     console.log('==========translateList', translateList)
     console.log('==========notTranslateList', notTranslateList)
+    // 检查是否存在取用了导航栏标题的情景
+    let filterList = translateList.filter(item => {
+        if (/navTitle\..*/g.test(item.matchKey)) {
+            return true
+        }
+        else {
+            return false
+        }
+    })
+    if (filterList.length > 0) {
+        console.error('==========there are some match key in navTitle,please edit theme:',)
+        console.log('==========', filterList)
+    }
     return true
 }
 const rpWx = series(rpWxTask, doLog)
