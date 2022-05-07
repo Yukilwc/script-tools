@@ -27,7 +27,7 @@ const getPinyin = (str) => {
 }
 let translateList = []
 let notTranslateList = []
-const rpWx = () => {
+const rpWxTask = () => {
     console.log('==========rpWx ',)
     translateList = []
     notTranslateList = []
@@ -49,8 +49,6 @@ const rpWx = () => {
         )
         .pipe(rename((path) => {
             // console.log('==========rename path', path)
-            console.log('==========translateList', translateList)
-            console.log('==========notTranslateList', notTranslateList)
         })).pipe(
             dest(destPath)
         )
@@ -158,6 +156,12 @@ const addTranslateItem = (item) => {
 const addNotTranslateItem = (item) => {
     notTranslateList.push(item)
 }
+const doLog = async () => {
+    console.log('==========translateList', translateList)
+    console.log('==========notTranslateList', notTranslateList)
+    return true
+}
+const rpWx = series(rpWxTask, doLog)
 
 export {
     rpWx

@@ -195,7 +195,6 @@ let dictionary = {
     shurujianshu: ["请输入件数", "Please enter quantity"],
     shurumaozhong: ["请输入毛重", "Please enter weight"],
     shurutiji: ["请输入体积", "Please enter volume"],
-    shurutijicbm: ["请输入体积(CBM)", "Please enter volume(CBM)"],
     baozhuangleixingxuanze: ["包装类型选择", "Package"],
     tonghang: ["同行", "Peer"],
     zhike: ["直客", "Direct Customer"],
@@ -726,6 +725,7 @@ let dictionary = {
   },
   // 页面标题
   navTitle: {
+    shurutijicbm: ["请输入体积(CBM)", "Please enter volume(CBM)"],
     gongsimingcheng: ["凯迪物流集团", "Lucky Logistics"],
     qiyejieshao: ["企业介绍", "Company Profile"],
     bossleida: ["BOSS雷达", "Boss Radar"],
