@@ -9,7 +9,7 @@ import {
     globListFilter
 } from '../tools/index'
 
-import { currentPath, targetPath } from './path';
+import { currentPath, targetPath, ext1, ext2, ext3 } from './path';
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -40,14 +40,11 @@ const readTitle = () => {
     resultList = []
     let srcPath = globFilter(path.resolve(targetPath, "./**/*.json"))
     let destPath = globFilter(path.resolve(targetPath, "./"))
-    let ext1 = globFilter(path.resolve(targetPath, "./node_modules/")) + '/**'
-    let ext2 = globFilter(path.resolve(targetPath, "./.git/")) + '/**'
-    let ext3 = globFilter(path.resolve(targetPath, "./*.json"))
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
-    console.log('==========extList', ext1, ext2)
+    // console.log('==========extList', ext1, ext2)
     // return src(["D:/glob/**/*.json", "!D:/glob/node_modules/**"], { allowEmpty: true })
-    return src([srcPath, `!${ext1}`, `!${ext2}`, `!${ext3}`], { allowEmpty: true })
+    return src([srcPath, ext1, ext2, ext3], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()
@@ -69,12 +66,14 @@ const writeResult = (cb) => {
         let dirPath = path.dirname(item.jsonPath)
         let baseName = path.basename(item.jsonPath, '.json')
         let jsPath = path.format({ dir: dirPath, name: baseName, ext: '.js' })
+        let wxmlPath = path.format({ dir: dirPath, name: baseName, ext: '.wxml' })
         return {
             navigationBarTitleText: item.navigationBarTitleText,
             dirPath,
             baseName,
             jsonPath: item.jsonPath,
-            jsPath
+            jsPath,
+            wxmlPath
         }
     })
     console.log('==========addResultList length', resultList.length)
