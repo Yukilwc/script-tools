@@ -6,15 +6,17 @@
   "scripts": {
     "rpWx": "gulp rpWx",
     "insertWxs": "gulp insertWxs",
-    "logJsonTitle":"gulp logJsonTitle"
+    "logJsonTitle": "gulp logJsonTitle"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.17.9",
     "cheerio": "^1.0.0-rc.10",
     "pinyin-pro": "^3.10.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/register": "^7.17.7",
     "gulp": "^4.0.2",

@@ -1,6 +1,7 @@
 import { series, parallel, src, dest } from 'gulp'
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
+import fs from 'fs'
 import path from 'path'
 import {
     globFilter,
@@ -15,9 +16,27 @@ const getArgOptions = () => {
     return options
 
 }
-
-const logJsonTitle = () => {
+let resultList = []
+const addResultList = (file) => {
+    let fileContents = file.contents.toString()
+    let jsonObj = null
+    try {
+        jsonObj = JSON.parse(fileContents)
+    }
+    catch (e) {
+        console.warn('==========json parse error', file.path)
+        jsonObj = null
+    }
+    if (jsonObj) {
+        resultList.push({
+            jsonPath: file.path,
+            title: jsonObj.navigationBarTitleText || '',
+        })
+    }
+}
+const readTitle = () => {
     console.log('==========insertWxs',)
+    resultList = []
     let srcPath = globFilter(path.resolve(targetPath, "./**/*.json"))
     let destPath = globFilter(path.resolve(targetPath, "./"))
     let ext1 = globFilter(path.resolve(targetPath, "./node_modules/")) + '/**'
@@ -31,7 +50,8 @@ const logJsonTitle = () => {
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()
                 // file.contents = Buffer.from(fileContents)
-                console.log('==========file.path', file.path)
+                // console.log('==========file.path', file.path)
+                addResultList(file)
                 cb(null, file)
             })
 
@@ -42,6 +62,31 @@ const logJsonTitle = () => {
             dest(destPath)
         )
 }
+const writeResult = (cb) => {
+    resultList = resultList.map(item => {
+        let dirPath = path.dirname(item.jsonPath)
+        let baseName = path.basename(item.jsonPath, '.json')
+        let jsPath = path.format({ dir: dirPath, name: baseName, ext: '.js' })
+        return {
+            ...item,
+            dirPath,
+            baseName,
+            jsPath
+        }
+    })
+    console.log('==========addResultList', resultList)
+    let strContent = JSON.stringify(resultList)
+    fs.writeFile(path.resolve(__dirname, "../result/log.json"), strContent, (err) => {
+        if (err) {
+            console.error(err)
+        }
+        else {
+            console.log('==========write success',)
+            cb()
+        }
+    })
+}
+const logJsonTitle = series(readTitle, writeResult)
 
 
 
