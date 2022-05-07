@@ -15,7 +15,8 @@ import {
     globFilter,
     globListFilter,
     getItemStr,
-    getLogName
+    getLogName,
+    getPinyin
 } from '../tools/index.js'
 import { currentPath, targetPath, commonExt } from './path';
 
@@ -27,11 +28,7 @@ const getArgOptions = () => {
     return options
 
 }
-const getPinyin = (str) => {
-    let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: false }).join('').substring(0, 30)
-    // console.log('==========getPinyin', str, py)
-    return py
-}
+
 let translateList = []
 let notTranslateList = []
 const rpWxTask = () => {

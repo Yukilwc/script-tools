@@ -1,5 +1,6 @@
 
 import path from 'path'
+import { pinyin } from 'pinyin-pro';
 import { DateTime } from './DateTime.js'
 const globListFilter = (list = []) => {
     return list.map(item => globFilter(item))
@@ -16,11 +17,17 @@ const getItemStr = (item) => {
 const getLogName = (prefix) => {
     return prefix + '__' + DateTime.todayStr('YYYYMMDDHHmmss')
 }
+const getPinyin = (str) => {
+    let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: false }).join('').substring(0, 30)
+    // console.log('==========getPinyin', str, py)
+    return py
+}
 
 
 export {
     globFilter,
     globListFilter,
     getItemStr,
-    getLogName
+    getLogName,
+    getPinyin
 }

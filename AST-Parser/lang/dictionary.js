@@ -746,6 +746,7 @@ let dictionary = {
     xiugaifeiyong: ["修改费用", "Modify Charge"],
     genjin: ["跟进", "Follow"],
     wodexiaoxi: ["我的消息", "My Message"],
+    wode: ["我的", "Mine"],
     kehuleida: ["客户雷达", "Customer Radar"],
     wodezhuanshukefu: ["我的专属客服", "Exclusive service"],
     wodebaojiadan: ["我的报价单", "My Quotation"],
