@@ -1,6 +1,10 @@
 import { series, parallel, src, dest } from 'gulp'
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
+import traverse from "@babel/traverse";
+import * as generator from "@babel/generator";
+import * as t from '@babel/types'
+import * as parser from "@babel/parser"
 import fs from 'fs'
 import path from 'path'
 const prettier = require("prettier");
@@ -23,24 +27,64 @@ const getArgOptions = () => {
     return options
 
 }
-const insertTitleIntoJsTask = (cb) => {
+const insertTitleIntoJsTask = async () => {
     translateList = []
     notTranslateList = []
     let pages = pagesJson.filter(page => page.navigationBarTitleText)
-    pages.forEach(page => {
+    for (let i = 0; i < pages.length; i++) {
+        let page = pages[i]
         let cnStr = page.navigationBarTitleText
         let matchKey = getKeyByChFromNavTitle(cnStr)
         if (matchKey && matchKey !== cnStr) {
             // 有匹配到
-            console.log('==========key', matchKey)
+            // console.log('==========key', matchKey)
             translateList.push({ cnStr, matchKey })
+            insertTitle2Page({ page, cnStr, matchKey })
         }
         else {
-            console.log('==========没有匹配到',)
-            notTranslateList.push({ cnStr, matchKey:getPinyin(matchKey) })
+            // console.log('==========没有匹配到',)
+            notTranslateList.push({ cnStr, matchKey: "tempDic." + getPinyin(matchKey) })
+        }
+    }
+    return true
+}
+const insertTitle2Page = ({ page, cnStr, matchKey }) => {
+    // if (page.navigationBarTitleText !== '公司客户') return
+    let jsPath = page.jsPath
+    let strContent = fs.readFileSync(jsPath, "utf8")
+    if (/Page\(\{[\s\S]+navTitleKey:/g.test(strContent)) {
+        console.log('==========navTitleKey is existing', cnStr)
+        return
+    }
+    let key = matchKey.split('.')[1]
+    strContent = strContent.replace(/Page\(\{/, `Page({\n  navTitleKey: "${key}",//${cnStr}\n`)
+    fs.writeFileSync(jsPath, strContent)
+
+}
+const insertTitle2PageUseAst = ({ page, cnStr, matchKey }) => {
+    if (page.navigationBarTitleText !== '公司客户') return
+    let jsPath = page.jsPath
+    let strContent = fs.readFileSync(jsPath, "utf8")
+    // console.log('==========strContent',strContent)
+    if (/Page\(\{[\s\S]+navTitleKey:/g.test(strContent)) {
+        console.log('==========navTitleKey is existing', cnStr)
+        return
+    }
+    let ast = parser.parse(strContent)
+    traverse(ast, {
+        CallExpression(path) {
+            // console.log('==========CallExpression',)
+            let callee = path.node.callee
+            // console.log('==========',path.node.callee.name)
+            if (t.isIdentifier(callee, { name: 'Page' })) {
+                console.log('==========CallExpression(path)', path.node)
+            }
         }
     })
-    cb()
+    console.log('==========traverse end',)
+    strContent = generator.default(ast).code
+    fs.writeFileSync(jsPath, strContent)
+
 }
 const getKeyByChFromNavTitle = (ch) => {
     let cnKeys = Object.keys(cn).filter(key => {
@@ -64,8 +108,8 @@ const getKeyByChFromNavTitle = (ch) => {
     }
 }
 const doLog = async () => {
-    console.log('==========translateList', translateList)
-    console.log('==========notTranslateList', notTranslateList)
+    // console.log('==========translateList', translateList)
+    // console.log('==========notTranslateList', notTranslateList)
     doLogNotTranslate(notTranslateList)
     doLogInfo(translateList, notTranslateList)
     return true
@@ -78,15 +122,15 @@ const doLogNotTranslate = (list = []) => {
     let itemListStr = notTranslateList.map(item => getItemStr(item)).join('\n')
     let strContent = `const tempDic = {\n${itemListStr}\n}`
     let name = getLogName('navTitle-noTranslate')
-    // strContent = prettier.format(objStr, { filepath: `${name}.js` })
-    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.js`), strContent)
+    strContent = prettier.format(strContent, { filepath: `${name}.js` })
+    fs.writeFileSync(path.resolve(__dirname, "../result/log/title/", `${name}.js`), strContent)
 
 }
 const doLogInfo = (translateList, notTranslateList, filterList) => {
     let strContent = JSON.stringify({ translateList, notTranslateList })
     let name = getLogName('navTitle-info')
     strContent = prettier.format(strContent, { filepath: `${name}.json` })
-    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.json`), strContent)
+    fs.writeFileSync(path.resolve(__dirname, "../result/log/title/", `${name}.json`), strContent)
 
 }
 const insertTitleIntoJs = series(insertTitleIntoJsTask, doLog)
