@@ -1,0 +1,1199 @@
+[
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Authorization",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Authorization\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Authorization\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\CertificatePage",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\CertificatePage\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\CertificatePage\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ChatNavigator",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ChatNavigator\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ChatNavigator\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Contact",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Contact\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\Contact\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyImage",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyImage\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyImage\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyPage",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyPage\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\EmptyPage\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fa-popup",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fa-popup\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fa-popup\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaCheckbox",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaCheckbox\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaCheckbox\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaDialog",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaDialog\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaDialog\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaSearchBar",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaSearchBar\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaSearchBar\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaTabs",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaTabs\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\FaTabs\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ListLoading",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ListLoading\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\ListLoading\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\PageLoading",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\PageLoading\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\PageLoading\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SkinTabs",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SkinTabs\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SkinTabs\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SearchAuth",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SearchAuth\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SearchAuth\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscribeNav",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscribeNav\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscribeNav\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscriptionTip",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscriptionTip\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\SubscriptionTip\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TopArc",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TopArc\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TopArc\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbar",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbar\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbar\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbarNew",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbarNew\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\TransparentNavbarNew\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\lib\\ec-canvas",
+    "baseName": "ec-canvas",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\lib\\ec-canvas\\ec-canvas.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\lib\\ec-canvas\\ec-canvas.js"
+  },
+  {
+    "navigationBarTitleText": "推荐运价",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\APASlist",
+    "baseName": "APASlist",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\APASlist\\APASlist.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\APASlist\\APASlist.js"
+  },
+  {
+    "navigationBarTitleText": "BOSS雷达",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\bossClient",
+    "baseName": "bossClient",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\bossClient\\bossClient.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\bossClient\\bossClient.js"
+  },
+  {
+    "navigationBarTitleText": "认证信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\Certification",
+    "baseName": "Certification",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\Certification\\Certification.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\Certification\\Certification.js"
+  },
+  {
+    "navigationBarTitleText": "船期预览",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\chooseShipMent",
+    "baseName": "chooseShipMent",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\chooseShipMent\\chooseShipMent.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\chooseShipMent\\chooseShipMent.js"
+  },
+  {
+    "navigationBarTitleText": "客户信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientDetail",
+    "baseName": "clientDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientDetail\\clientDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientDetail\\clientDetail.js"
+  },
+  {
+    "navigationBarTitleText": "客户跟踪",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientManage",
+    "baseName": "clientManage",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientManage\\clientManage.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\clientManage\\clientManage.js"
+  },
+  {
+    "navigationBarTitleText": "公司客户",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClient",
+    "baseName": "comClient",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClient\\comClient.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClient\\comClient.js"
+  },
+  {
+    "navigationBarTitleText": "客户信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClientDetail",
+    "baseName": "comClientDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClientDetail\\comClientDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comClientDetail\\comClientDetail.js"
+  },
+  {
+    "navigationBarTitleText": "评论",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comment",
+    "baseName": "comment",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comment\\comment.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\comment\\comment.js"
+  },
+  {
+    "navigationBarTitleText": "评论",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\commentP",
+    "baseName": "commentP",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\commentP\\commentP.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\commentP\\commentP.js"
+  },
+  {
+    "navigationBarTitleText": "企业介绍",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\company",
+    "baseName": "company",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\company\\company.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\company\\company.js"
+  },
+  {
+    "navigationBarTitleText": "货币切换",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\currency",
+    "baseName": "currency",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\currency\\currency.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\currency\\currency.js"
+  },
+  {
+    "navigationBarTitleText": "部门客户",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departClient",
+    "baseName": "departClient",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departClient\\departClient.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departClient\\departClient.js"
+  },
+  {
+    "navigationBarTitleText": "部门雷达",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departRadar",
+    "baseName": "departRadar",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departRadar\\departRadar.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\departRadar\\departRadar.js"
+  },
+  {
+    "navigationBarTitleText": "修改信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\editInfo",
+    "baseName": "editInfo",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\editInfo\\editInfo.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\editInfo\\editInfo.js"
+  },
+  {
+    "navigationBarTitleText": "评论",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\evaluate",
+    "baseName": "evaluate",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\evaluate\\evaluate.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\evaluate\\evaluate.js"
+  },
+  {
+    "navigationBarTitleText": "专家",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expert",
+    "baseName": "expert",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expert\\expert.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expert\\expert.js"
+  },
+  {
+    "navigationBarTitleText": "专家详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertDetail",
+    "baseName": "expertDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertDetail\\expertDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertDetail\\expertDetail.js"
+  },
+  {
+    "navigationBarTitleText": "专家",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertList",
+    "baseName": "expertList",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertList\\expertList.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\expertList\\expertList.js"
+  },
+  {
+    "navigationBarTitleText": "FBA仓库",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fba",
+    "baseName": "fba",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fba\\fba.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fba\\fba.js"
+  },
+  {
+    "navigationBarTitleText": "FBA仓库地址",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fbaDetail",
+    "baseName": "fbaDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fbaDetail\\fbaDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fbaDetail\\fbaDetail.js"
+  },
+  {
+    "navigationBarTitleText": "运价详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcldetail",
+    "baseName": "fcldetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcldetail\\fcldetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcldetail\\fcldetail.js"
+  },
+  {
+    "navigationBarTitleText": "运价列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcllist",
+    "baseName": "fcllist",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcllist\\fcllist.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fcllist\\fcllist.js"
+  },
+  {
+    "navigationBarTitleText": "海运整箱",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsearch",
+    "baseName": "fclsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsearch\\fclsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsearch\\fclsearch.js"
+  },
+  {
+    "navigationBarTitleText": "修改海运费",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurcharge",
+    "baseName": "fclsurcharge",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurcharge\\fclsurcharge.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurcharge\\fclsurcharge.js"
+  },
+  {
+    "navigationBarTitleText": "添加费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeadd",
+    "baseName": "fclsurchargeadd",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeadd\\fclsurchargeadd.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeadd\\fclsurchargeadd.js"
+  },
+  {
+    "navigationBarTitleText": "修改费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeedit",
+    "baseName": "fclsurchargeedit",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeedit\\fclsurchargeedit.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\fclsurchargeedit\\fclsurchargeedit.js"
+  },
+  {
+    "navigationBarTitleText": "跟进",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\follow",
+    "baseName": "follow",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\follow\\follow.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\follow\\follow.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\index",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\index\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\index\\index.js"
+  },
+  {
+    "navigationBarTitleText": "我的消息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messages",
+    "baseName": "messages",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messages\\messages.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messages\\messages.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messagesDetail",
+    "baseName": "messagesDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messagesDetail\\messagesDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\messagesDetail\\messagesDetail.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\mine",
+    "baseName": "mine",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\mine\\mine.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\mine\\mine.js"
+  },
+  {
+    "navigationBarTitleText": "更多工具",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\moreTools",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\moreTools\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\moreTools\\index.js"
+  },
+  {
+    "navigationBarTitleText": "客户雷达",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myClient",
+    "baseName": "myClient",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myClient\\myClient.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myClient\\myClient.js"
+  },
+  {
+    "navigationBarTitleText": "我的专属客服",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myContact",
+    "baseName": "myContact",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myContact\\myContact.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myContact\\myContact.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myExpert",
+    "baseName": "myExpert",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myExpert\\myExpert.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myExpert\\myExpert.js"
+  },
+  {
+    "navigationBarTitleText": "我的订单",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrder",
+    "baseName": "myOrder",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrder\\myOrder.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrder\\myOrder.js"
+  },
+  {
+    "navigationBarTitleText": "订单详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrderDetail",
+    "baseName": "myOrderDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrderDetail\\myOrderDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myOrderDetail\\myOrderDetail.js"
+  },
+  {
+    "navigationBarTitleText": "我的报价单",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotation",
+    "baseName": "myquotation",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotation\\myquotation.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotation\\myquotation.js"
+  },
+  {
+    "navigationBarTitleText": "历史报价单",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotationdetail",
+    "baseName": "myquotationdetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotationdetail\\myquotationdetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\myquotationdetail\\myquotationdetail.js"
+  },
+  {
+    "navigationBarTitleText": "资讯公告",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\news",
+    "baseName": "news",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\news\\news.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\news\\news.js"
+  },
+  {
+    "navigationBarTitleText": "其他费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\otherCurrency",
+    "baseName": "otherCurrency",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\otherCurrency\\otherCurrency.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\otherCurrency\\otherCurrency.js"
+  },
+  {
+    "navigationBarTitleText": "港口查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portschedulesearch",
+    "baseName": "portschedulesearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portschedulesearch\\portschedulesearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portschedulesearch\\portschedulesearch.js"
+  },
+  {
+    "navigationBarTitleText": "港口搜索",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portsearch",
+    "baseName": "portsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portsearch\\portsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\portsearch\\portsearch.js"
+  },
+  {
+    "navigationBarTitleText": "获客海报",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterDetail",
+    "baseName": "posterDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterDetail\\posterDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterDetail\\posterDetail.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterList",
+    "baseName": "posterList",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterList\\posterList.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\posterList\\posterList.js"
+  },
+  {
+    "navigationBarTitleText": "设置信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\salessetting",
+    "baseName": "salessetting",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\salessetting\\salessetting.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\salessetting\\salessetting.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scan",
+    "baseName": "scan",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scan\\scan.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scan\\scan.js"
+  },
+  {
+    "navigationBarTitleText": "船期表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\schedule",
+    "baseName": "schedule",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\schedule\\schedule.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\schedule\\schedule.js"
+  },
+  {
+    "navigationBarTitleText": "船期详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scheduleDetail",
+    "baseName": "scheduleDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scheduleDetail\\scheduleDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\scheduleDetail\\scheduleDetail.js"
+  },
+  {
+    "navigationBarTitleText": "发动态",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\send",
+    "baseName": "send",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\send\\send.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\send\\send.js"
+  },
+  {
+    "navigationBarTitleText": "船期查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shipment",
+    "baseName": "shipment",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shipment\\shipment.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shipment\\shipment.js"
+  },
+  {
+    "navigationBarTitleText": "船公司查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch",
+    "baseName": "shippingsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch\\shippingsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch\\shippingsearch.js"
+  },
+  {
+    "navigationBarTitleText": "船公司查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch2",
+    "baseName": "shippingsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch2\\shippingsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\shippingsearch2\\shippingsearch.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\subscribeMessage",
+    "baseName": "subscribeMessage",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\subscribeMessage\\subscribeMessage.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\subscribeMessage\\subscribeMessage.js"
+  },
+  {
+    "navigationBarTitleText": "货物跟踪",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipments",
+    "baseName": "trackshipments",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipments\\trackshipments.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipments\\trackshipments.js"
+  },
+  {
+    "navigationBarTitleText": "订单跟踪",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipmentsdetail",
+    "baseName": "trackshipmentsdetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipmentsdetail\\trackshipmentsdetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trackshipmentsdetail\\trackshipmentsdetail.js"
+  },
+  {
+    "navigationBarTitleText": "资讯详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailC",
+    "baseName": "trendDetailC",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailC\\trendDetailC.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailC\\trendDetailC.js"
+  },
+  {
+    "navigationBarTitleText": "资讯详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailP",
+    "baseName": "trendDetailP",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailP\\trendDetailP.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\trendDetailP\\trendDetailP.js"
+  },
+  {
+    "navigationBarTitleText": "版本更新",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\versions",
+    "baseName": "versions",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\versions\\versions.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\versions\\versions.js"
+  },
+  {
+    "navigationBarTitleText": " ",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\webview",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\webview\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\webview\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\Banner",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\Banner\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\Banner\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxNumberInput",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxNumberInput\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxNumberInput\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BaseInfo",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BaseInfo\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BaseInfo\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxTypeSelect",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\BoxTypeSelect\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\ChargeList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\ChargeList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\components\\fcl\\ChargeList\\index.js"
+  },
+  {
+    "navigationBarTitleText": "港口大全",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\allport",
+    "baseName": "allport",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\allport\\allport.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\allport\\allport.js"
+  },
+  {
+    "navigationBarTitleText": "集装箱",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\container",
+    "baseName": "container",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\container\\container.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\container\\container.js"
+  },
+  {
+    "navigationBarTitleText": "集装箱详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\contDetail",
+    "baseName": "contDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\contDetail\\contDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\contDetail\\contDetail.js"
+  },
+  {
+    "navigationBarTitleText": "国家代码",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\country",
+    "baseName": "country",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\country\\country.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\country\\country.js"
+  },
+  {
+    "navigationBarTitleText": "船司详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cycloDetail",
+    "baseName": "cycloDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cycloDetail\\cycloDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cycloDetail\\cycloDetail.js"
+  },
+  {
+    "navigationBarTitleText": "船司百科",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cyclopedia",
+    "baseName": "cyclopedia",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cyclopedia\\cyclopedia.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\cyclopedia\\cyclopedia.js"
+  },
+  {
+    "navigationBarTitleText": "冷藏温度 ",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\freeze",
+    "baseName": "freeze",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\freeze\\freeze.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\freeze\\freeze.js"
+  },
+  {
+    "navigationBarTitleText": "危险品",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardous",
+    "baseName": "hazardous",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardous\\hazardous.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardous\\hazardous.js"
+  },
+  {
+    "navigationBarTitleText": "危险品详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousDetail",
+    "baseName": "hazardousDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousDetail\\hazardousDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousDetail\\hazardousDetail.js"
+  },
+  {
+    "navigationBarTitleText": "危险品列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousList",
+    "baseName": "hazardousList",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousList\\hazardousList.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\hazardousList\\hazardousList.js"
+  },
+  {
+    "navigationBarTitleText": "HS编码",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HScode",
+    "baseName": "HScode",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HScode\\HScode.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HScode\\HScode.js"
+  },
+  {
+    "navigationBarTitleText": "HS 编码详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSDetail",
+    "baseName": "HSDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSDetail\\HSDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSDetail\\HSDetail.js"
+  },
+  {
+    "navigationBarTitleText": "HS编码列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSList",
+    "baseName": "HSList",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSList\\HSList.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\HSList\\HSList.js"
+  },
+  {
+    "navigationBarTitleText": "汇率计算",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\parities",
+    "baseName": "parities",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\parities\\parities.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\parities\\parities.js"
+  },
+  {
+    "navigationBarTitleText": "港口列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\portDetail",
+    "baseName": "portDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\portDetail\\portDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageB\\pages\\portDetail\\portDetail.js"
+  },
+  {
+    "navigationBarTitleText": "现舱预定",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\cabinDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\cabinDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\cabinDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "我的订单",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\myReservation",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\myReservation\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\myReservation\\index.js"
+  },
+  {
+    "navigationBarTitleText": "我的现舱预定",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\orderDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\orderDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\orderDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "预定协议",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceAgreement",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceAgreement\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceAgreement\\index.js"
+  },
+  {
+    "navigationBarTitleText": "现舱详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "现舱查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\existingSpace\\spaceList\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\pages\\solution\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "空运详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\portSearch",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\portSearch\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\portSearch\\index.js"
+  },
+  {
+    "navigationBarTitleText": "空运查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\search",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\search\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\air\\search\\index.js"
+  },
+  {
+    "navigationBarTitleText": "FBA详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "FBA列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "寄件仓库选择",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Mail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Mail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Mail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "目的仓库选择",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Receiving",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Receiving\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\Receiving\\index.js"
+  },
+  {
+    "navigationBarTitleText": "FBA头程查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\search",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\search\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\fba\\search\\index.js"
+  },
+  {
+    "navigationBarTitleText": "冻柜列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezer",
+    "baseName": "freezer",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezer\\freezer.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezer\\freezer.js"
+  },
+  {
+    "navigationBarTitleText": "冻柜详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezerDetail",
+    "baseName": "freezerDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezerDetail\\freezerDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\freezerDetail\\freezerDetail.js"
+  },
+  {
+    "navigationBarTitleText": "冻柜运价",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsearch",
+    "baseName": "fzrsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsearch\\fzrsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsearch\\fzrsearch.js"
+  },
+  {
+    "navigationBarTitleText": "修改海运费",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurcharge",
+    "baseName": "fzrsurcharge",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurcharge\\fzrsurcharge.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurcharge\\fzrsurcharge.js"
+  },
+  {
+    "navigationBarTitleText": "添加费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeadd",
+    "baseName": "fzrsurchargeadd",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeadd\\fzrsurchargeadd.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeadd\\fzrsurchargeadd.js"
+  },
+  {
+    "navigationBarTitleText": "修改费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeedit",
+    "baseName": "fzrsurchargeedit",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeedit\\fzrsurchargeedit.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freezer\\fzrsurchargeedit\\fzrsurchargeedit.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\edit",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\edit\\index.js"
+  },
+  {
+    "navigationBarTitleText": "我的运价订阅",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "整箱进口详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcldetail",
+    "baseName": "fcldetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcldetail\\fcldetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcldetail\\fcldetail.js"
+  },
+  {
+    "navigationBarTitleText": "整箱进口列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcllist",
+    "baseName": "fcllist",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcllist\\fcllist.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fcllist\\fcllist.js"
+  },
+  {
+    "navigationBarTitleText": "整箱进口",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fclsearch",
+    "baseName": "fclsearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fclsearch\\fclsearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\importFcl\\fclsearch\\fclsearch.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclDetail",
+    "baseName": "lclDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclDetail\\lclDetail.js"
+  },
+  {
+    "navigationBarTitleText": "设置",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEdit",
+    "baseName": "lclEdit",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEdit\\lclEdit.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEdit\\lclEdit.js"
+  },
+  {
+    "navigationBarTitleText": "费用设置",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEditPrice",
+    "baseName": "lclEditPrice",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEditPrice\\lclEditPrice.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclEditPrice\\lclEditPrice.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclList\\index.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclSearch",
+    "baseName": "lclSearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclSearch\\lclSearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lcl\\lclSearch\\lclSearch.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclDetail",
+    "baseName": "lclDetail",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclDetail\\lclDetail.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclDetail\\lclDetail.js"
+  },
+  {
+    "navigationBarTitleText": "设置",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEdit",
+    "baseName": "lclEdit",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEdit\\lclEdit.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEdit\\lclEdit.js"
+  },
+  {
+    "navigationBarTitleText": "费用设置",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEditPrice",
+    "baseName": "lclEditPrice",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEditPrice\\lclEditPrice.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclEditPrice\\lclEditPrice.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclList\\index.js"
+  },
+  {
+    "navigationBarTitleText": "拼箱查询",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclSearch",
+    "baseName": "lclSearch",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclSearch\\lclSearch.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\lclProgressive\\lclSearch\\lclSearch.js"
+  },
+  {
+    "navigationBarTitleText": "报价单",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcldetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "运价列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcllist",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fcllist\\index.js"
+  },
+  {
+    "navigationBarTitleText": "SPOT运价",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\fclsearch\\index.js"
+  },
+  {
+    "navigationBarTitleText": "港口搜索",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\portsearch",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\mskFreight\\portsearch\\index.js"
+  },
+  {
+    "navigationBarTitleText": "海外代理费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "海外代理费用",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\overseasAgentCharge\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "跟踪详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "跟踪详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "我的跟踪订阅",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myTracking",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myTracking\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\myTracking\\index.js"
+  },
+  {
+    "navigationBarTitleText": "货物跟踪",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\search",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\search\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\search\\index.js"
+  },
+  {
+    "navigationBarTitleText": "供应商详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\detail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "供应商信息",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageC\\pages\\supplierView\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "订单跟踪详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "订单跟踪",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\list\\index.js"
+  },
+  {
+    "navigationBarTitleText": "订单跟踪详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\CancelDialog",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\CancelDialog\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\CancelDialog\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ContainerDialog",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ContainerDialog\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ContainerDialog\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\EmptyDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\EmptyDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\EmptyDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ErrorPop",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ErrorPop\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ErrorPop\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ProgressDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ProgressDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\ProgressDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\SubDialog",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\SubDialog\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\SubDialog\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\TopDetail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\TopDetail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\tracking\\components\\TopDetail\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\more",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\more\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\more\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\MoreDialog",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\MoreDialog\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\MoreDialog\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\refresh",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\refresh\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\refresh\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\SeaAirTable",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\SeaAirTable\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\components\\SeaAirTable\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\ListPanel",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\ListPanel\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\ListPanel\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\SubList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\SubList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\freightSubscription\\list\\components\\SubList\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail\\components\\CargoProcess",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail\\components\\CargoProcess\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\airDetail\\components\\CargoProcess\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CargoProcess",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CargoProcess\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CargoProcess\\index.js"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CtnrNode",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CtnrNode\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageD\\pages\\orderTracking\\seaDetail\\components\\CtnrNode\\index.js"
+  }
+]

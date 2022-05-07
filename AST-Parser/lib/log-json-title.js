@@ -3,6 +3,7 @@ const mapStream = require('map-stream');
 var rename = require('gulp-rename')
 import fs from 'fs'
 import path from 'path'
+const prettier = require("prettier");
 import {
     globFilter,
     globListFilter
@@ -29,8 +30,8 @@ const addResultList = (file) => {
     }
     if (jsonObj) {
         resultList.push({
+            navigationBarTitleText: jsonObj.navigationBarTitleText || '',
             jsonPath: file.path,
-            title: jsonObj.navigationBarTitleText || '',
         })
     }
 }
@@ -41,11 +42,12 @@ const readTitle = () => {
     let destPath = globFilter(path.resolve(targetPath, "./"))
     let ext1 = globFilter(path.resolve(targetPath, "./node_modules/")) + '/**'
     let ext2 = globFilter(path.resolve(targetPath, "./.git/")) + '/**'
+    let ext3 = globFilter(path.resolve(targetPath, "./*.json"))
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
     console.log('==========extList', ext1, ext2)
     // return src(["D:/glob/**/*.json", "!D:/glob/node_modules/**"], { allowEmpty: true })
-    return src([srcPath, `!${ext1}`, `!${ext2}`], { allowEmpty: true })
+    return src([srcPath, `!${ext1}`, `!${ext2}`, `!${ext3}`], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 // let fileContents = file.contents.toString()
@@ -68,15 +70,17 @@ const writeResult = (cb) => {
         let baseName = path.basename(item.jsonPath, '.json')
         let jsPath = path.format({ dir: dirPath, name: baseName, ext: '.js' })
         return {
-            ...item,
+            navigationBarTitleText: item.navigationBarTitleText,
             dirPath,
             baseName,
+            jsonPath: item.jsonPath,
             jsPath
         }
     })
-    console.log('==========addResultList', resultList)
+    console.log('==========addResultList length', resultList.length)
     let strContent = JSON.stringify(resultList)
-    fs.writeFile(path.resolve(__dirname, "../result/log.json"), strContent, (err) => {
+    strContent = prettier.format(strContent, { filepath: 'pages.json' })
+    fs.writeFile(path.resolve(__dirname, "../result/pages.json"), strContent, (err) => {
         if (err) {
             console.error(err)
         }
