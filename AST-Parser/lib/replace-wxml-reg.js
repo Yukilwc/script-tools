@@ -2,10 +2,11 @@
 import { series, parallel, src, dest } from 'gulp'
 const cheerio = require('cheerio')
 const mapStream = require('map-stream');
+const colors = require('colors/safe')
 import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
 // const chalk = require('chalk')
-import chalk from 'chalk';
+// import chalk from 'chalk';
 import path from 'path'
 import { getKeyByCh } from '../lang/dictionary'
 import {
@@ -171,7 +172,7 @@ const doLog = async () => {
         }
     })
     if (filterList.length > 0) {
-        console.log(chalk.red("==========there are some match key in navTitle,please edit theme:"))
+        console.log(colors.red.underline("==========there are some match key in navTitle,please edit theme:"))
         console.log('==========', filterList)
     }
     return true
