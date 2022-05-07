@@ -312,20 +312,20 @@
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\expertList\\expertList.wxml"
   },
   {
-    "navigationBarTitleText": "FBA仓库地址",
-    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail",
-    "baseName": "fbaDetail",
-    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.json",
-    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.js",
-    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.wxml"
-  },
-  {
     "navigationBarTitleText": "FBA仓库",
     "dirPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fba",
     "baseName": "fba",
     "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fba\\fba.json",
     "jsPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fba\\fba.js",
     "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fba\\fba.wxml"
+  },
+  {
+    "navigationBarTitleText": "FBA仓库地址",
+    "dirPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail",
+    "baseName": "fbaDetail",
+    "jsonPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.json",
+    "jsPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.js",
+    "wxmlPath": "D:\\workspace\\ForTest\\etransmp3\\pages\\fbaDetail\\fbaDetail.wxml"
   },
   {
     "navigationBarTitleText": "运价详情",
