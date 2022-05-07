@@ -1,5 +1,7 @@
 // 正则方案，优先匹配双花括号，之后再一轮匹配非
 import { series, parallel, src, dest } from 'gulp'
+import fs from 'fs'
+const prettier = require("prettier");
 const cheerio = require('cheerio')
 const mapStream = require('map-stream');
 const colors = require('colors/safe')
@@ -11,8 +13,10 @@ import path from 'path'
 import { getKeyByCh } from '../lang/dictionary'
 import {
     globFilter,
-    globListFilter
-} from '../tools/index'
+    globListFilter,
+    getItemStr,
+    getLogName
+} from '../tools/index.js'
 import { currentPath, targetPath, commonExt } from './path';
 
 
@@ -24,7 +28,7 @@ const getArgOptions = () => {
 
 }
 const getPinyin = (str) => {
-    let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: true }).join('').substring(0, 30)
+    let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: false }).join('').substring(0, 30)
     // console.log('==========getPinyin', str, py)
     return py
 }
@@ -42,8 +46,9 @@ const rpWxTask = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                fileContents =
-                    handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
+                // FIXME:
+                // fileContents =
+                handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 console.log('==========file path', file.path)
                 cb(null, file)
@@ -175,7 +180,20 @@ const doLog = async () => {
         console.log(colors.red.underline("==========there are some match key in navTitle,please edit theme:"))
         console.log('==========', filterList)
     }
+    doLogNotTranslate(notTranslateList)
     return true
+}
+const doLogNotTranslate = (list = []) => {
+    if (list.length === 0) {
+        console.log(colors.green('==========there is all translated!!!'))
+        return
+    }
+    let itemListStr = notTranslateList.map(item => getItemStr(item)).join('\n')
+    let strContent = `const tempDic = {\n${itemListStr}\n}`
+    let name = getLogName('noTranslate')
+    // strContent = prettier.format(objStr, { filepath: `${name}.js` })
+    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.js`), strContent)
+
 }
 const rpWx = series(rpWxTask, doLog)
 
