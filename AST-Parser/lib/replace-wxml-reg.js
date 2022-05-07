@@ -38,6 +38,7 @@ const rpWxTask = () => {
     console.log('==========rpWx ',)
     translateList = []
     notTranslateList = []
+    // FIXME:
     let srcPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/**/*.wxml"))
     let destPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/"))
     console.log('==========', srcPath)
