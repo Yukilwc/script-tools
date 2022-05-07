@@ -5,6 +5,12 @@ const mapStream = require('map-stream');
 import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
 import path from 'path'
+import {
+    globFilter,
+    globListFilter
+} from '../tools/index'
+
+
 // 获取命令行参数
 const getArgOptions = () => {
     var minimist = require('minimist');
@@ -13,14 +19,14 @@ const getArgOptions = () => {
 
 }
 const getPinyin = (str) => {
-    let py = pinyin(str, { toneType: 'none', type: 'array' }).join('').substring(0,30)
+    let py = pinyin(str, { toneType: 'none', type: 'array' }).join('').substring(0, 30)
     console.log('==========getPinyin', str, py)
     return py
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
-    let srcPath = path.resolve(__dirname, "../src/**/*.wxml")
-    let destPath = path.resolve(__dirname, "../src/")
+    let srcPath = globFilter(path.resolve(__dirname, "../src/**/*.wxml"))
+    let destPath = globFilter(path.resolve(__dirname, "../src/"))
     console.log('==========', srcPath)
     console.log('==========', destPath)
     return src([srcPath], { allowEmpty: true })
@@ -30,12 +36,13 @@ const rpWx = () => {
                 // fileContents = 
                 handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
+                console.log('==========file path',file.path)
                 cb(null, file)
             })
 
         )
         .pipe(rename((path) => {
-            console.log('==========rename path', path)
+            // console.log('==========rename path', path)
         })).pipe(
             dest(destPath)
         )
