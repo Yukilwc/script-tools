@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "rpWx": "gulp rpWx",
+    "rpWx": "gulp syncDic && gulp rpWx",
     "insertWxs": "gulp insertWxs",
-    "logJsonTitle": "gulp logJsonTitle"
+    "logJsonTitle": "gulp logJsonTitle",
+    "syncDic":"gulp syncDic"
   },
   "author": "",
   "license": "ISC",

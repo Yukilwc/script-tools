@@ -9,6 +9,7 @@ import {
     globFilter,
     globListFilter
 } from '../tools/index'
+import { currentPath, targetPath, commonExt } from './path';
 
 
 // 获取命令行参数
@@ -25,18 +26,18 @@ const getPinyin = (str) => {
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
-    let srcPath = globFilter(path.resolve(__dirname, "../src/**/*.wxml"))
-    let destPath = globFilter(path.resolve(__dirname, "../src/"))
+    let srcPath = globFilter(path.resolve(targetPath, ".pages/bossClient/**/*.wxml"))
+    let destPath = globFilter(path.resolve(targetPath, ".pages/bossClient/"))
     console.log('==========', srcPath)
     console.log('==========', destPath)
-    return src([srcPath], { allowEmpty: true })
+    return src([srcPath, ...commonExt], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
                 // fileContents = 
                 handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
-                console.log('==========file path',file.path)
+                console.log('==========file path', file.path)
                 cb(null, file)
             })
 
