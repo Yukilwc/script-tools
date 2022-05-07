@@ -5,7 +5,7 @@ const mapStream = require('map-stream');
 import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
 import path from 'path'
-import {getKeyByCh} from '../lang/dictionary'
+import { getKeyByCh } from '../lang/dictionary'
 import {
     globFilter,
     globListFilter
@@ -27,8 +27,8 @@ const getPinyin = (str) => {
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
-    let srcPath = globFilter(path.resolve(targetPath, ".pages/bossClient/**/*.wxml"))
-    let destPath = globFilter(path.resolve(targetPath, ".pages/bossClient/"))
+    let srcPath = globFilter(path.resolve(targetPath, "./pages/bossClient/**/*.wxml"))
+    let destPath = globFilter(path.resolve(targetPath, "./pages/bossClient/"))
     console.log('==========', srcPath)
     console.log('==========', destPath)
     return src([srcPath, ...commonExt], { allowEmpty: true })
@@ -63,6 +63,9 @@ const handleMustache = (str = '') => {
                 if (!matchKey || matchKey === cnStr) {
                     matchKey = "tempdic." + getPinyin(cnStr)
                 }
+                else {
+                    console.log('==========Match dictionary:', cnStr)
+                }
                 if (quote) {
                     return `i18n.t('${matchKey}',$_locale)`
 
@@ -91,6 +94,10 @@ const handleAttrLiteral = (str = '') => {
             if (!matchKey || matchKey === cnStr) {
                 matchKey = "tempdic." + getPinyin(cnStr)
             }
+            else {
+                console.log('==========Match dictionary:', cnStr)
+            }
+
             return `"{{i18n.t('${matchKey}',$_locale)}}"`
 
         }
@@ -108,6 +115,10 @@ const handleTextLiteral = (str = '') => {
         if (!matchKey || matchKey === cnStr) {
             matchKey = "tempdic." + getPinyin(cnStr)
         }
+        else {
+            console.log('==========Match dictionary:', cnStr)
+        }
+
         return `{{i18n.t('${matchKey}',$_locale)}}`
 
     })
