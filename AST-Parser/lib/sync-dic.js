@@ -11,7 +11,7 @@ import { currentPath, targetPath, commonExt } from './path';
 const syncDic = () => {
     console.log('==========insertWxs',)
     let srcPath = globFilter(path.resolve(targetPath, "./lang/dictionary.js"))
-    let destPath = globFilter(path.resolve(currentPath, "./lang/dictionary.js"))
+    let destPath = globFilter(path.resolve(currentPath, "./lang/"))
     console.log('========== srcPath', srcPath)
     console.log('========== destPath', destPath)
     return src([srcPath], { allowEmpty: true })

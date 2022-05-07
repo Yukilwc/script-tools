@@ -5,6 +5,7 @@ const mapStream = require('map-stream');
 import { pinyin } from 'pinyin-pro';
 var rename = require('gulp-rename')
 import path from 'path'
+import {getKeyByCh} from '../lang/dictionary'
 import {
     globFilter,
     globListFilter
@@ -115,13 +116,13 @@ const handleTextLiteral = (str = '') => {
 
 }
 // 接入dictionary
-const getKeyByCh = (ch) => {
-    if (ch === '数据') {
-        return 'common.shuju'
-    }
-    else
-        return ''
-}
+// const getKeyByCh = (ch) => {
+//     if (ch === '数据') {
+//         return 'common.shuju'
+//     }
+//     else
+//         return ''
+// }
 const hasCnChar = (str = '') => {
     if (/[\u4e00-\u9fa5]+/g.test(str)) return true
     else return false
