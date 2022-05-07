@@ -21,22 +21,22 @@ const getArgOptions = () => {
 
 }
 const getPinyin = (str) => {
-    let py = pinyin(str, { toneType: 'none', type: 'array' }).join('').substring(0, 30)
+    let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: true }).join('').substring(0, 30)
     console.log('==========getPinyin', str, py)
     return py
 }
 const rpWx = () => {
     console.log('==========rpWx ',)
-    let srcPath = globFilter(path.resolve(targetPath, "./pages/bossClient/**/*.wxml"))
-    let destPath = globFilter(path.resolve(targetPath, "./pages/bossClient/"))
+    let srcPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/**/*.wxml"))
+    let destPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/"))
     console.log('==========', srcPath)
     console.log('==========', destPath)
     return src([srcPath, ...commonExt], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                // fileContents = 
-                handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
+                fileContents =
+                    handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 console.log('==========file path', file.path)
                 cb(null, file)
@@ -64,7 +64,7 @@ const handleMustache = (str = '') => {
                     matchKey = "tempdic." + getPinyin(cnStr)
                 }
                 else {
-                    console.log('==========Match dictionary:', cnStr)
+                    console.log('==========Match dictionary:', cnStr, ':', matchKey)
                 }
                 if (quote) {
                     return `i18n.t('${matchKey}',$_locale)`
@@ -95,7 +95,7 @@ const handleAttrLiteral = (str = '') => {
                 matchKey = "tempdic." + getPinyin(cnStr)
             }
             else {
-                console.log('==========Match dictionary:', cnStr)
+                console.log('==========Match dictionary:', cnStr, ':', matchKey)
             }
 
             return `"{{i18n.t('${matchKey}',$_locale)}}"`
@@ -116,7 +116,7 @@ const handleTextLiteral = (str = '') => {
             matchKey = "tempdic." + getPinyin(cnStr)
         }
         else {
-            console.log('==========Match dictionary:', cnStr)
+            console.log('==========Match dictionary:', cnStr, ':', matchKey)
         }
 
         return `{{i18n.t('${matchKey}',$_locale)}}`
