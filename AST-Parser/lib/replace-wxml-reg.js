@@ -181,6 +181,7 @@ const doLog = async () => {
         console.log('==========', filterList)
     }
     doLogNotTranslate(notTranslateList)
+    doLogInfo(translateList, notTranslateList, filterList)
     return true
 }
 const doLogNotTranslate = (list = []) => {
@@ -190,6 +191,13 @@ const doLogNotTranslate = (list = []) => {
     }
     let itemListStr = notTranslateList.map(item => getItemStr(item)).join('\n')
     let strContent = `const tempDic = {\n${itemListStr}\n}`
+    let name = getLogName('noTranslate')
+    // strContent = prettier.format(objStr, { filepath: `${name}.js` })
+    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.js`), strContent)
+
+}
+const doLogInfo = (translateList, notTranslateList, filterList) => {
+    let strContent = JSON.stringify({ translateList, notTranslateList, navTilteList: filterList })
     let name = getLogName('noTranslate')
     // strContent = prettier.format(objStr, { filepath: `${name}.js` })
     fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.js`), strContent)

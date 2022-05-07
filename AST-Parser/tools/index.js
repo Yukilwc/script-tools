@@ -14,7 +14,7 @@ const getItemStr = (item) => {
     return str
 }
 const getLogName = (prefix) => {
-    return prefix + '__' + DateTime.todayStr('YYYY-MM-DD-HH:mm:ss')
+    return prefix + '__' + DateTime.todayStr('YYYYMMDDHHmmss')
 }
 
 
