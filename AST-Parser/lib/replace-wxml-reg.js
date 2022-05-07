@@ -198,9 +198,9 @@ const doLogNotTranslate = (list = []) => {
 }
 const doLogInfo = (translateList, notTranslateList, filterList) => {
     let strContent = JSON.stringify({ translateList, notTranslateList, navTilteList: filterList })
-    let name = getLogName('noTranslate')
-    // strContent = prettier.format(objStr, { filepath: `${name}.js` })
-    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.js`), strContent)
+    let name = getLogName('info')
+    strContent = prettier.format(strContent, { filepath: `${name}.json` })
+    fs.writeFileSync(path.resolve(__dirname, "../result/log/", `${name}.json`), strContent)
 
 }
 const rpWx = series(rpWxTask, doLog)
