@@ -195,6 +195,7 @@ let dictionary = {
     shurujianshu: ["请输入件数", "Please enter quantity"],
     shurumaozhong: ["请输入毛重", "Please enter weight"],
     shurutiji: ["请输入体积", "Please enter volume"],
+    shurutijicbm: ["请输入体积(CBM)", "Please enter volume(CBM)"],
     baozhuangleixingxuanze: ["包装类型选择", "Package"],
     tonghang: ["同行", "Peer"],
     zhike: ["直客", "Direct Customer"],

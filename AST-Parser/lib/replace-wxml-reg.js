@@ -22,11 +22,15 @@ const getArgOptions = () => {
 }
 const getPinyin = (str) => {
     let py = pinyin(str, { toneType: 'none', type: 'array', removeNonZh: true }).join('').substring(0, 30)
-    console.log('==========getPinyin', str, py)
+    // console.log('==========getPinyin', str, py)
     return py
 }
+let translateList = []
+let notTranslateList = []
 const rpWx = () => {
     console.log('==========rpWx ',)
+    translateList = []
+    notTranslateList = []
     let srcPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/**/*.wxml"))
     let destPath = globFilter(path.resolve(targetPath, "./packageA/pages/lcl/"))
     console.log('==========', srcPath)
@@ -45,6 +49,8 @@ const rpWx = () => {
         )
         .pipe(rename((path) => {
             // console.log('==========rename path', path)
+            console.log('==========translateList', translateList)
+            console.log('==========notTranslateList', notTranslateList)
         })).pipe(
             dest(destPath)
         )
@@ -62,9 +68,11 @@ const handleMustache = (str = '') => {
                 let matchKey = getKeyByCh(cnStr)
                 if (!matchKey || matchKey === cnStr) {
                     matchKey = "tempdic." + getPinyin(cnStr)
+                    addNotTranslateItem({ cnStr, matchKey })
                 }
                 else {
-                    console.log('==========Match dictionary:', cnStr, ':', matchKey)
+                    // console.log('==========Match dictionary:', cnStr, ':', matchKey)
+                    addTranslateItem({ cnStr, matchKey })
                 }
                 if (quote) {
                     return `i18n.t('${matchKey}',$_locale)`
@@ -93,9 +101,12 @@ const handleAttrLiteral = (str = '') => {
             let matchKey = getKeyByCh(cnStr)
             if (!matchKey || matchKey === cnStr) {
                 matchKey = "tempdic." + getPinyin(cnStr)
+                addNotTranslateItem({ cnStr, matchKey })
+
             }
             else {
-                console.log('==========Match dictionary:', cnStr, ':', matchKey)
+                // console.log('==========Match dictionary:', cnStr, ':', matchKey)
+                addTranslateItem({ cnStr, matchKey })
             }
 
             return `"{{i18n.t('${matchKey}',$_locale)}}"`
@@ -114,9 +125,12 @@ const handleTextLiteral = (str = '') => {
         let matchKey = getKeyByCh(cnStr)
         if (!matchKey || matchKey === cnStr) {
             matchKey = "tempdic." + getPinyin(cnStr)
+            addNotTranslateItem({ cnStr, matchKey })
+
         }
         else {
-            console.log('==========Match dictionary:', cnStr, ':', matchKey)
+            // console.log('==========Match dictionary:', cnStr, ':', matchKey)
+            addTranslateItem({ cnStr, matchKey })
         }
 
         return `{{i18n.t('${matchKey}',$_locale)}}`
@@ -138,7 +152,12 @@ const hasCnChar = (str = '') => {
     if (/[\u4e00-\u9fa5]+/g.test(str)) return true
     else return false
 }
-
+const addTranslateItem = (item) => {
+    translateList.push(item)
+}
+const addNotTranslateItem = (item) => {
+    notTranslateList.push(item)
+}
 
 export {
     rpWx
