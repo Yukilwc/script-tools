@@ -7,7 +7,8 @@
     "rpWx": "gulp rpWx",
     "insertWxs": "gulp insertWxs",
     "logJsonTitle": "gulp logJsonTitle",
-    "syncDic": "gulp syncDic"
+    "syncDic": "gulp syncDic",
+    "insertTitleIntoJs":"gulp insertTitleIntoJs"
   },
   "author": "",
   "license": "ISC",
