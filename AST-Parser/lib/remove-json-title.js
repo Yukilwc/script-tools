@@ -25,7 +25,6 @@ const removeJsonTitle = () => {
     return src([srcPath, ...commonExt, extJson], { allowEmpty: true })
         .pipe(
             mapStream(function (file, cb) {
-                console.log('==========file.path', file.path)
                 let fileContents = file.contents.toString()
                 let jsonObj = null
                 try {
@@ -35,11 +34,13 @@ const removeJsonTitle = () => {
                     console.warn('==========json parse error', file.path)
                     jsonObj = null
                 }
-                if (jsonObj && navigationBarTitleText.jsonObj) {
-                    delete jsonObj.navigationBarTitleText
-                    let writeStr = JSON.stringify(jsonObj)
-                    writeStr = prettier.format(writeStr, { filepath: `${path.basename(file.path, '.json')}.json` })
-                    file.contents = Buffer.from(writeStr)
+                if (jsonObj && jsonObj.navigationBarTitleText) {
+                    console.log('==========delete file.path', file.path)
+                    // delete jsonObj.navigationBarTitleText
+                    // fileContents = JSON.stringify(jsonObj)
+                    // fileContents = prettier.format(fileContents , { filepath: `${path.basename(file.path, '.json')}.json` })
+                    fileContents = fileContents.replace(/"navigationBarTitleText"\s*:\s*".*?",?/g, '')
+                    file.contents = Buffer.from(fileContents)
                 }
                 cb(null, file)
             })
