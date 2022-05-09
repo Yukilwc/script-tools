@@ -36,9 +36,10 @@ const removeJsonTitle = () => {
                 }
                 if (jsonObj && jsonObj.navigationBarTitleText) {
                     console.log('==========delete file.path', file.path)
-                    delete jsonObj.navigationBarTitleText
+                    // delete jsonObj.navigationBarTitleText
+                    jsonObj.navigationBarTitleText = '   '
                     fileContents = JSON.stringify(jsonObj)
-                    fileContents = prettier.format(fileContents , { filepath: `${path.basename(file.path, '.json')}.json` })
+                    fileContents = prettier.format(fileContents, { filepath: `${path.basename(file.path, '.json')}.json` })
                     // fileContents = fileContents.replace(/,?[\s]*"navigationBarTitleText"\s*:\s*".*?",?/g, '')
                     file.contents = Buffer.from(fileContents)
                 }
