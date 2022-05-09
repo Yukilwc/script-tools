@@ -8,7 +8,8 @@
     "insertWxs": "gulp insertWxs",
     "logJsonTitle": "gulp logJsonTitle",
     "syncDic": "gulp syncDic",
-    "insertTitleIntoJs":"gulp insertTitleIntoJs"
+    "insertTitleIntoJs":"gulp insertTitleIntoJs",
+    "removeJsonTitle":"gulp removeJsonTitle"
   },
   "author": "",
   "license": "ISC",
