@@ -17,7 +17,7 @@ const getArgOptions = () => {
 
 const insertWxs = () => {
     console.log('==========insertWxs',)
-    let wxsFilePath = path.resolve(targetPath, "./lang/locales.wxs")
+    let wxsFilePath = path.resolve("D:\\workspace\\work\\minapp\\etransmp3\\", "./lang/locales.wxs")
     let srcPath = globFilter(path.resolve(targetPath, "./**/*.wxml"))
     let destPath = globFilter(path.resolve(targetPath, "./"))
     console.log('========== srcPath', srcPath)

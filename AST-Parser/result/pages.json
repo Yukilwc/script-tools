@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "navigationBarTitleText": "特种箱详情",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\detail",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\detail\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\detail\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\detail\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "  ",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\edit",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\edit\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\edit\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\edit\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "配箱指导",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\guide",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\guide\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\guide\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\guide\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "特种箱列表",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\list",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\list\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\list\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\list\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "特种箱",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\search",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\search\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\search\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\search\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\Banner",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\Banner\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\Banner\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\Banner\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\BaseInfo",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\BaseInfo\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\BaseInfo\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\BaseInfo\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ChargeList",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ChargeList\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ChargeList\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ChargeList\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ContainerTabs",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ContainerTabs\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ContainerTabs\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\ContainerTabs\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\FooterFilter",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\FooterFilter\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\FooterFilter\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\FooterFilter\\index.wxml"
+  },
+  {
+    "navigationBarTitleText": "",
+    "dirPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\SearchForm",
+    "baseName": "index",
+    "jsonPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\SearchForm\\index.json",
+    "jsPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\SearchForm\\index.js",
+    "wxmlPath": "D:\\workspace\\work\\minapp\\etransmp3\\packageA\\pages\\oog\\components\\SearchForm\\index.wxml"
+  }
+]
