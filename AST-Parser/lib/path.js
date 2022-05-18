@@ -5,7 +5,7 @@ import {
 } from '../tools/index'
 export const currentPath = `D:\\workspace\\libiary\\my\\script-tools\\AST-Parser\\`
 // export const targetPath = `D:\\workspace\\work\\minapp\\etransmp3\\`
-export const targetPath = `D:\\workspace\\ForTest\\etransmp3\\`
+export const targetPath = `D:\\workspace\\work\\minapp\\etransmp3\\packageA\\oog\\`
 // export const currentPath = `C:\\My\\Workspace\\Tools\\script-tools\\AST-Parser\\`
 // export const targetPath = `D:\\glob\\`
 
