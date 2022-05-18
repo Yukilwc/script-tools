@@ -195,6 +195,8 @@ let dictionary = {
     zanweixuanzexiangxing: ["暂未选择箱型", "No box type selected"],
     xuanzexiangxing: ["选择箱型", "Select box type"],
     feiyongqingdan: ["费用清单", "List of fees"],
+    qitabizhong:["其他币种","Others"],
+    haiyunbunengdanwei:['海运费不能修改单位','Sea freight cannot modify the unit']
   },
   // 拼箱
   lcl: {
