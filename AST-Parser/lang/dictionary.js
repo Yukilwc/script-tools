@@ -9,7 +9,7 @@
 let dictionary = {
   // 通用
   common: {
-   yishangxinxijingongcankao:["以上信息仅供参考","The above information is for reference only"],
+    yishangxinxijingongcankao: ["以上信息仅供参考", "The above information is for reference only"],
     search: ['查询', 'Search'],
     confirm: ['确定', 'Confirm'],
     cancel: ['取消', 'Cancel'],
@@ -61,7 +61,7 @@ let dictionary = {
     clearAll: ['清除全部', 'Clear'],
     qingKongQuanBu: ['清空全部', 'Clear'],
     routeCode: ['航线代码', 'Route'],
-    more: ['更多', 'More'],
+    gengduo: ['更多', 'More'],
     chakangengduo: ['查看更多', 'More'],
     hideTabs: ['收起', 'Hide'],
     guakao: ['挂靠', 'Wharf'],
@@ -128,7 +128,7 @@ let dictionary = {
     xiugai: ["修改", "Edit"],
     shurugaunjianci: ["请输入关键词查找", "Please enter keywords to find"],
     wuchaxunshuju: ["无查询数据", "No query data"],
-    
+
   },
   // 首页
   main: {
@@ -145,15 +145,12 @@ let dictionary = {
     pinxiangyunjia: ["拼箱运价", "LCL"],
     jingpinyuding: ["精品预定", "Space"],
     kongyunchaxun: ["空运查询", "AIR"],
-    xinggaoguojiwuliu: ["凯迪物流集团", "Lucky Logistics"],
     jingzhunchuanqi: ["精准船期查询", "Schedule"],
     shishihuowugenzong: ["实时货物跟踪", "Tracking"],
     xiancangtuijian: ["现舱推荐", "Space Recommend"],
     gengduoxiancang: ["更多现舱", "More"],
     hangyexinwen: ["行业新闻", "News"],
     kaiChuanEtd: ["开船", "ETD"],
-
-    puxieshijiehangyunpinxiangshi: ["谱写世界航运拼箱史", "Compose history of world LCL"],
     scheduleInquiry: ['船期查询', 'Schedule'],
     cargoTracking: ['货物跟踪', 'Tracking'],
     currencyConverter: ['汇率换算', 'ExchangeRate'],
@@ -170,6 +167,8 @@ let dictionary = {
     addCharge: ["添加费用", "Add Charge"],
     shouCangBaoJia: ["收藏报价", "Collect"],
     baoCunChangTu: ["保存长图", "SaveImage"],
+    lianxikefu: ["联系客服", "Contact"],
+
     shareCharge: ["分享报价", "Share"],
     unitPricePh: ["请输入单价", "Please enter unit price"],
     chargeNamePh: ["请输入费用名称", "Please enter charge name"],
@@ -184,7 +183,18 @@ let dictionary = {
     shshiyunjiatixing: ['实时运价提醒立即前往', 'Real-time rate remind'],
     dingyueyunjia: ["订阅运价", "Subscribe Freight"],
     zuiduoshitiao: ["注：每位用户最多可订阅运价数量为10条", "Each user can subscribe a maximum of 10 freight"],
-    zinzengdingyueyunjia: ['新增运价订阅', 'Add rate subscription']
+    zinzengdingyueyunjia: ['新增运价订阅', 'Add rate subscription'],
+    tuijianyunjia: ["推荐运价", "Recommend"],
+    chongzu: ["充足", "Available"],
+    jinzhang: ["紧张", "Tight"],
+    baocang: ["爆仓", "Overload"],
+    tinghang: ["停航", "Suspended"],
+    paidui: ["排队", "Lineup"],
+    bujie: ["不接", "NotPickUp"],
+    tishixinxi: ["提示信息", "Tips"],
+    zanweixuanzexiangxing: ["暂未选择箱型", "No box type selected"],
+    xuanzexiangxing: ["选择箱型", "Select box type"],
+    feiyongqingdan: ["费用清单", "List of fees"],
   },
   // 拼箱
   lcl: {
@@ -214,22 +224,22 @@ let dictionary = {
     bochuanbanqi: ["驳船班期", "Barge Schedule"],
     tijibi: ["体积比", "Volume ratio"],
     rtFanwei: ["RT范围", "RT range"],
-    yufu: ["预付","pay in advance"],
-    daofu: ["到付","Arrival payment"],
+    yufu: ["预付", "pay in advance"],
+    daofu: ["到付", "Arrival payment"],
     xiugaixinxi: ["修改信息", "Modify"],
-    qingshuruxiugaiyunfeijiage:["请输入修改运费价格","Please enter charge"],
-    qingshurufeiyongjiage:["请输入费用价格","Please enter charge"],
-    feiyongmingcheng:["费用名称","ChargeName"],
-    haiyunfeiyong:["海运费用","Ocean Charge"],
+    qingshuruxiugaiyunfeijiage: ["请输入修改运费价格", "Please enter charge"],
+    qingshurufeiyongjiage: ["请输入费用价格", "Please enter charge"],
+    feiyongmingcheng: ["费用名称", "ChargeName"],
+    haiyunfeiyong: ["海运费用", "Ocean Charge"],
     youxiaoriqi: ["有效日期", "Validity Date"],
-    qita:["其他","Other"],
-    m1:["请输入最多两位小数格式的CBM价格","Please enter integer or two decimal places CBM price"],
-    m2:["请输入最多两位小数格式的TON价格","Please enter integer or two decimal places TON price"],
-    m3:["请输入最多两位小数格式的BAF价格","Please enter integer or two decimal places BAF price"],
-    m4:["请输入最多两位小数格式的CISF价格","Please enter integer or two decimal places CISF price"],
-    m5:["请输入最多两位小数格式的MIN价格","Please enter integer or two decimal places MIN price"],
+    qita: ["其他", "Other"],
+    m1: ["请输入最多两位小数格式的CBM价格", "Please enter integer or two decimal places CBM price"],
+    m2: ["请输入最多两位小数格式的TON价格", "Please enter integer or two decimal places TON price"],
+    m3: ["请输入最多两位小数格式的BAF价格", "Please enter integer or two decimal places BAF price"],
+    m4: ["请输入最多两位小数格式的CISF价格", "Please enter integer or two decimal places CISF price"],
+    m5: ["请输入最多两位小数格式的MIN价格", "Please enter integer or two decimal places MIN price"],
     zuidishoufei: ["最低收费", "Minimum charge"],
-    kaihang: ["开航","ETD"],
+    kaihang: ["开航", "ETD"],
     jiageyouxiaoqi: ["价格有效期", "Validity Date"],
   },
   // 跟踪
@@ -372,10 +382,31 @@ let dictionary = {
     huowumaozhong: ["货物毛重", "Weight"],
     dingcangbeizhu: ["订舱备注", "Booking Remark"],
     xianzhongbeizhu: ["限重备注", "Weight Remark"],
+    peixiangzhidao: ["配箱指导", "Packing guide"],
+    zuiduotianjiayici: ["最多添加一次", "add at most once"],
+    qingshuruhuowuchang: ["请输入货物长", "Enter cargo length"],
+    qingshuruhuowukuan: ["请输入货物宽", "Enter cargo width"],
+    qingshuruhuowugao: ["请输入货物高", "Enter cargo height"],
+    huowuchang: ["货物长", "Length"],
+    huowukuan: ["货物宽", "Width"],
+    huowugao: ["货物高", "Height"],
+    xiangtineibuchicun: ["箱体内部尺寸", "Internal dimension"],
+    xiangmenkaiduchicun: ["箱门开度尺寸", "Door Opening"],
+    dingbukaiduchicun: ["顶部开度尺寸", "Roof Opening"],
+    zaizhongfuhe: ["载重负荷", "Peyload"],
+    huowuzongzhong: ["货物总重", "Max gross"],
+    kezaizhongliang: ["可载重量", "Max payload"],
+    xiangliang: ["箱量", "Tare"],
+    huowuchicun: ["货物尺寸", "Cargo size"],
+    kaidingbuneng: ["开顶箱不能超长/超宽/超重", "OT container cannot be over-long/over-width/over-weight"],
+    kuangjiabuneng: ["框架箱不能超长/超重", "FR container cannot be over-long/over-weight"],
+
+  },
+  lengdongxiang: {
 
   },
   // 汇率
-  currency:{
+  currency: {
     qingshuruchazhaodebizhong: ["请输入查找的币种", "Please enter the currency to find"],
     huansuan: ["换算", "Conversion"],
     huilv: ["汇率", " exchange rate"],
@@ -695,9 +726,9 @@ let dictionary = {
     },
     querenshanchu: ["确认删除?", "Are you sure you want to delete?"],
     // 授权状态
-    lijirenzheng:["立即认证","Certificate"],
-    zanwurenzhengchaxun:["暂无认证信息,请认证后查询","No certification information, please search after certification"],
-    gongnengweikaifang:["功能暂未开放","Function not open yet"]
+    lijirenzheng: ["立即认证", "Certificate"],
+    zanwurenzhengchaxun: ["暂无认证信息,请认证后查询", "No certification information, please search after certification"],
+    gongnengweikaifang: ["功能暂未开放", "Function not open yet"]
 
   },
   // 分享
@@ -725,8 +756,6 @@ let dictionary = {
   },
   // 页面标题
   navTitle: {
-    shurutijicbm: ["请输入体积(CBM)", "Please enter volume(CBM)"],
-    gongsimingcheng: ["凯迪物流集团", "Lucky Logistics"],
     qiyejieshao: ["企业介绍", "Company Profile"],
     bossleida: ["BOSS雷达", "Boss Radar"],
     renzhengxinxi: ["认证信息", "Authentication"],
@@ -790,9 +819,9 @@ let dictionary = {
     wodeyunjiadingyue: ["我的运价订阅", "My FCL Subscription"],
     yunjiadingyue: ["运价订阅", "FCL Subscription"],
     wodekefu: ["我的客服", "My Customer Service"],
-    huilvjisuan:['汇率计算','Exchange rates'],
-    huobiqiehuan:['货币切换','Currency Switch'],
-    pinxiangliebiao: ['拼箱列表','LCL List']
+    huilvjisuan: ['汇率计算', 'Exchange rates'],
+    huobiqiehuan: ['货币切换', 'Currency Switch'],
+    pinxiangliebiao: ['拼箱列表', 'LCL List']
   }
 
 

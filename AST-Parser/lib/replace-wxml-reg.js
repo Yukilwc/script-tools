@@ -36,7 +36,9 @@ const rpWxTask = () => {
     translateList = []
     notTranslateList = []
     // FIXME:修改此处调整翻译路径
-    const commonPath = './packageA/pages/oog'
+    // const commonPath = './packageA/pages/freezer/'
+    const commonPath = './pages/fclsurchargeedit/'
+    // const commonPath = './components/fcl/'
     let srcPath = globFilter(path.resolve(targetPath, `${commonPath}/**/*.wxml`))
     let destPath = globFilter(path.resolve(targetPath, `${commonPath}/`))
     console.log('==========', srcPath)
@@ -45,8 +47,7 @@ const rpWxTask = () => {
         .pipe(
             mapStream(function (file, cb) {
                 let fileContents = file.contents.toString()
-                // FIXME:
-                // fileContents =
+                fileContents =
                 handleTextLiteral(handleAttrLiteral(handleMustache(fileContents)))
                 file.contents = Buffer.from(fileContents)
                 console.log('==========file path', file.path)
