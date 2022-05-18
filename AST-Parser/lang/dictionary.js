@@ -114,6 +114,7 @@ let dictionary = {
     zuiyoufangan: ["最优方案正在运算中", "Beat plan in calculation"],
     kehuqingshaohou: ["客户请稍后", "Wait a moment"],
     youxiaoqi: ["有效期", "Validity Date"],
+    youxiaoqiduan: ["有效期", "Validity"],
     sheheshijian: ["审核时间", "Audit Time"],
     boda: ["拨打", "Call"],
     weixin: ["微信", "Wechat"],
@@ -151,13 +152,26 @@ let dictionary = {
     gengduoxiancang: ["更多现舱", "More"],
     hangyexinwen: ["行业新闻", "News"],
     kaiChuanEtd: ["开船", "ETD"],
-    scheduleInquiry: ['船期查询', 'Schedule'],
-    cargoTracking: ['货物跟踪', 'Tracking'],
     currencyConverter: ['汇率换算', 'ExchangeRate'],
     haiyunpinxiang: ['海运拼箱', 'LCL'],
     mianxiangquanguoshouhuo: ['面向全国收货', 'Receipt Nationwide'],
     kaituoquanqiugangkou: ['开拓全球200多个直拼港口', 'More than 200 LCL ports worldwide'],
     zixungonggao: ["资讯公告", "News"],
+    tezhongguiyunjia: ["特种柜运价", "OOG"],
+    dajianhuowuyunshuzhuanjia: ["全球OOG大件货物运输专家", "Global OOG Oversized Cargo Transport Expert"],
+    puguiyunjia: ["普柜运价", "FCL"],
+    quanqiuyunjiashishichaxun: ["全球运价实时查询", "Real-time query rates"],
+    lengdongguiyunjia: ["冷冻柜运价", "Freezer"],
+    jingzhunyunjiashujudaquan: ["精准运价数据大全", "Accurate freight rate data"],
+    jingdiananli: ["经典案例", "Case"],
+    zhuanzhutezhongxiangwuliufuwu: ["专注特种箱物流服务", "Focus on OOG logistics services"],
+    anlijieshao: ["案例介绍", "Description"],
+    xihuan: ["喜欢", "Like"],
+    dianjizhelitianjiadaowodexiaoc: ["点击这里添加到我的小程序吧", "Click here to add to my minapp"],
+    xiangmuxunpan: ["项目询盘", "Inquiry"],
+    jinpinxiancang: ["精品现舱", "Space"],
+    chuanqichaxun: ['船期查询', 'Schedule'],
+    huowugenzong: ["货物跟踪", "Tracking"],
   },
 
   // 运价查询流程
@@ -195,8 +209,8 @@ let dictionary = {
     zanweixuanzexiangxing: ["暂未选择箱型", "No box type selected"],
     xuanzexiangxing: ["选择箱型", "Select box type"],
     feiyongqingdan: ["费用清单", "List of fees"],
-    qitabizhong:["其他币种","Others"],
-    haiyunbunengdanwei:['海运费不能修改单位','Sea freight cannot modify the unit']
+    qitabizhong: ["其他币种", "Others"],
+    haiyunbunengdanwei: ['海运费不能修改单位', 'Sea freight cannot modify the unit']
   },
   // 拼箱
   lcl: {
@@ -437,8 +451,12 @@ let dictionary = {
     myMessage: ["我的消息", "Message"],
     myQuotation: ["我的报价单", "My Quotations"],
     wodeyunjiadingyue: ["我的运价订阅", "My FCL Subscription"],
+    yunjiadingyue: ["运价订阅", "FCL Subscription"],
+    genzongdingyue:["跟踪订阅","Tracking Subscription"],
+    wodexiancang: ["我的现舱", "My Space"],
     dianjishouquan: ["点击授权小程序", "Allow User Info"],
     woyudingdexiancang: ["我预定的现舱", "My Orders"],
+    wodedingdan: ["我的订单", "My Orders"],
     wodezhuanjiaku: ["我的专家库", "My Experts"],
     fenxianghaoyou: ["分享给好友", "Share"],
     kehuleida: ["客户雷达", "Customer Radar"],
@@ -452,6 +470,22 @@ let dictionary = {
     yuyanshezhi: ["语言设置", "Language"],
     wodekefu: ["我的客服", "My Customer Service"],
     huokehaibao: ["获客海报", "Poster"],
+    wodezhuanshukefu: ["我的专属客服", "Exclusive service"],
+    banbengengxin: ["版本更新", "Version Update"],
+    wodezhuanshumingpian: ["我的专属名片", "My exclusive card"],
+    fenxiangmingpianranggengduoren: ["分享名片让更多人认识你", "Share your cards"],
+    yiduiyiweininfuwu: ["一对一为您服务", "One-to-one service"],
+    dangqianweishouquan: ["当前未授权", "Not authorized"],
+    yirenzheng: ["已认证", "Verified"],
+    yonghuzhongxin: ["用户中心", "User Center"],
+    yingxiaogongju: ["营销工具", "Marketing Tools"],
+    dianzixuanchuance: ["电子宣传册", "E-Brochure"],
+    dianzimingpian: ["电子名片", "Electronic Card"],
+    xiaoxidingyue: ["消息订阅", "Subscribe Message"],
+    haiwaidailifeiyong: ["海外代理费用", "Overseas agency fee"],
+    keshangguanli: ["客商管理", "Merchant Management"],
+    wodegongyingshang: ["我的供应商", "My Supplier"],
+    qiehuanyuyan: ["切换语言", "Switch Language"],
   },
   // 获客海报
   poster: {
@@ -498,7 +532,8 @@ let dictionary = {
     qiyejianjie: ["企业简介", "About Us"],
     tuanduifengcai: ["团队风采", "Our Team"],
     gongsizizhi: ["公司资质", "Certificate of Honor"],
-
+    shouqigengduo: ["收起更多", "Hide"],
+    gengduojieshao: ["更多介绍", "More"],
   },
   // 动态
   news: {
@@ -612,6 +647,7 @@ let dictionary = {
   },
   // Toast Notice
   message: {
+    wanshanxinxigenjin:["用于完善信息及销售跟进","Used to improve information and sales follow-up"],
     savedSuccessfully: ['保存成功', 'Saved successfully'],
     saveFailed: ['保存失败', 'Save failed'],
     modifiedSuccessfully: ['修改成功', 'Modified successfully'],
@@ -628,8 +664,10 @@ let dictionary = {
     reservationFailed: ['预定失败', "Reservation failed"],
     reservationSuccessful: ['预定成功,请到我预定的现舱查看！', "Reservation is successful. Please check my current cabin!"],
     size10M: ['托书大小不能超过10M', "The size of the book should not exceed 10M"],
+    wenjiandaxiao10: ['文件大小不能超过10M', "The size of the file should not exceed 10M"],
     uploadSucceeded: ['上传成功', "Upload succeeded"],
     uploadFailed: ['上传失败', "Upload failed"],
+    shangchuanzhong:["上传中","Uploading"],
     // 现舱校验
     containerEmpty: ['箱量不能为空', "Container quantity cannot be empty"],
     containerLarge: ['箱量必须大于0', "Container quantity must be greater than 0"],
