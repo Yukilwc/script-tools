@@ -452,7 +452,7 @@ let dictionary = {
     myQuotation: ["我的报价单", "My Quotations"],
     wodeyunjiadingyue: ["我的运价订阅", "My FCL Subscription"],
     yunjiadingyue: ["运价订阅", "FCL Subscription"],
-    genzongdingyue:["跟踪订阅","Tracking Subscription"],
+    genzongdingyue: ["跟踪订阅", "Tracking Subscription"],
     wodexiancang: ["我的现舱", "My Space"],
     dianjishouquan: ["点击授权小程序", "Allow User Info"],
     woyudingdexiancang: ["我预定的现舱", "My Orders"],
@@ -487,6 +487,9 @@ let dictionary = {
     wodegongyingshang: ["我的供应商", "My Supplier"],
     qiehuanyuyan: ["切换语言", "Switch Language"],
   },
+  yunjiadingyue: {
+
+  },
   // 获客海报
   poster: {
     gengduohaibao: ["更多海报", "More Poster"],
@@ -510,7 +513,7 @@ let dictionary = {
     rangwochengwei: ["让我成为您的", "Let me be your"],
     wuliuguanjia: ["物流管家", " logistics manager"],
     baocuntupian: ["保存图片", "Save Image"],
-
+    xiazaierweima: ["下载二维码", "Download QRCode"]
   },
   // 消息列表，聊天
   chat: {
@@ -545,6 +548,12 @@ let dictionary = {
     dianjipinglun: ["请输入您要评论的信息，点击评论即可", "Please enter the information you want to comment on, click comment"],
     tuijiantejia: ["推荐特价", "APAS"],
     remenpinglun: ["热门评论", "Top Comments"],
+    yuhaoyoufenxiangyouqudeshiqing: ["与好友分享有趣的事情吧", "Share interesting things with your friends"],
+    fabuzhaopian: ["发布照片", "Post photo"],
+    gongkaiwodedongtai: ["公开我的动态", "Make my activity public"],
+    fabudongtai: ["发布动态", "Post News"],
+    fabuzhong: ["发布中", "Posting"],
+    tupianweijin: ["上传图片涉嫌违禁,发布失败", "Uploading pictures is suspected of being prohibited and failed to publish"],
   },
   // 我的 销售相关
   xiaoshou: {
@@ -647,7 +656,7 @@ let dictionary = {
   },
   // Toast Notice
   message: {
-    wanshanxinxigenjin:["用于完善信息及销售跟进","Used to improve information and sales follow-up"],
+    wanshanxinxigenjin: ["用于完善信息及销售跟进", "Used to improve information and sales follow-up"],
     savedSuccessfully: ['保存成功', 'Saved successfully'],
     saveFailed: ['保存失败', 'Save failed'],
     modifiedSuccessfully: ['修改成功', 'Modified successfully'],
@@ -667,7 +676,7 @@ let dictionary = {
     wenjiandaxiao10: ['文件大小不能超过10M', "The size of the file should not exceed 10M"],
     uploadSucceeded: ['上传成功', "Upload succeeded"],
     uploadFailed: ['上传失败', "Upload failed"],
-    shangchuanzhong:["上传中","Uploading"],
+    shangchuanzhong: ["上传中", "Uploading"],
     // 现舱校验
     containerEmpty: ['箱量不能为空', "Container quantity cannot be empty"],
     containerLarge: ['箱量必须大于0', "Container quantity must be greater than 0"],
