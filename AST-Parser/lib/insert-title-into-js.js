@@ -30,7 +30,7 @@ const getArgOptions = () => {
 const insertTitleIntoJsTask = async () => {
     translateList = []
     notTranslateList = []
-    let pages = pagesJson.filter(page => page.navigationBarTitleText)
+    let pages = pagesJson.filter(page => page.navigationBarTitleText&&page.navigationBarTitleText.trim())
     for (let i = 0; i < pages.length; i++) {
         let page = pages[i]
         let cnStr = page.navigationBarTitleText

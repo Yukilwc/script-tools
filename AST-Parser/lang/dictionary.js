@@ -129,7 +129,7 @@ let dictionary = {
     xiugai: ["修改", "Edit"],
     shurugaunjianci: ["请输入关键词查找", "Please enter keywords to find"],
     wuchaxunshuju: ["无查询数据", "No query data"],
-
+    dingyueyunjia: ["订阅运价", "Subscribe"],
   },
   // 首页
   main: {
@@ -418,6 +418,7 @@ let dictionary = {
     kuangjiabuneng: ["框架箱不能超长/超重", "FR container cannot be over-long/over-weight"],
 
   },
+  // 冷冻箱
   lengdongxiang: {
 
   },
@@ -445,6 +446,7 @@ let dictionary = {
     fuwukefu: ["服务客服", "Service"],
     xuanzekefu: ["请选择为您服务的客服人员", "Please select your customer service"],
     querendenglu: ["确认登录", "Login"],
+    denglu: ["登录", "Login"],
   },
   // 我的
   my: {
@@ -487,15 +489,78 @@ let dictionary = {
     wodegongyingshang: ["我的供应商", "My Supplier"],
     qiehuanyuyan: ["切换语言", "Switch Language"],
   },
+  // 运价订阅
   yunjiadingyue: {
+    zhu: ["注", "Tip"],
+    meiweiyonghuzuiduokedingyueyun: ["每位用户最多可订阅运价数量为", "The max number that can be subscribed is"],
+    tiao: ["条", "items"],
+    dingyuefangshi: ["订阅方式", "Subscription type"],
+    duanxin: ["短信", "Short message"],
+    xinzengkongge: ["新增", "Add "],
+    konggedingyue: ["订阅", " Subscription"],
+    konggedingyueyunjia: ["订阅运价", " Subscribe Freight"],
+    qingshurubeizhu: ['请输入备注内容', "Please enter the remark"],
+    tongzhileixing: ["通知类型", "Notification type"],
+    baocundingyue: ["保存订阅", "Save"],
+    zhishaoyizhongjieshou: ['请至少选择一种接收方式', 'Please select at least one receiving method'],
+    zhengxiangdingyue: ["整箱订阅", "FCL"],
+    pingxiangdingyue: ["拼箱订阅", "LCL"],
+    kongyundingyue: ["空运订阅", "AIR"],
+    zhengxiang: ["整箱", "FCL"],
+    pingxiang: ["拼箱", "LCL"],
+    kongyun: ["空运", "AIR"],
 
+  },
+  // 跟踪订阅
+  genzongdingyue: {
+    dangqianzanwugenzongxinxi: ["当前暂无跟踪信息", "There is no tracking information"],
+    dianjishangfangsousuoquyuchazh: ["点击上方搜索区域查找货物信息", "Click the search area above to find cargo information"],
+    shuruchuangongsitidanhao: ["输入船公司提单号", "Enter the shipping company's BillNo"],
+    querenquxiaodingyue: ["确认取消订阅", "Confirm cancel"],
+    quxiaodingyuehoubuzaijieshouti: ["取消订阅后不再接收提单跟踪信息", "No longer receive B/L tracking information after unsubscribing"],
+    caozuoshijian: ["操作时间", "Operation time"],
+    dangqianchaxun: ["当前查询", "Query"],
+    zanwuxiangguanhuowugenzongxinx: ["暂无相关货物跟踪信息", "No related tracking info"],
+    fanhuichongxinchaxun: ["返回重新查询", "Return to query"],
+    gengxinshijian: ["更新时间", "Update Time"],
+    zhidaole: ["知道了", "Know"],
+    yichangtixing: ["异常提醒", "Abnormal reminder"],
+    tiaoyichang: ["条异常", " Abnormal"],
+    qingshurudingyueyouxiang: ["请输入订阅邮箱", "Please enter email"],
+    dingyueyouxiangxinxi: ["订阅邮箱信息", "Email info"],
+    baocunxinxi: ["保存信息", "Save"],
+    yunshugangkou: ["运输港口", "Port"],
+    jizhuangxiangliang: ["集装箱量", "Number"],
+    yujidaoda: ["预计到达", "Arrival"],
+    dangqianweizhi: ["当前位置", "Current"],
+    tuisong: ["推送", "Post"],
+    dingyueyouxiang: ["订阅邮箱", "Email"],
+    yiwancheng: ["已完成", "Done"],
+    weiwancheng: ["未完成", "Undone"],
+    yidaoda: ["已到达", "Arrive"],
+    youyichang: ["有异常", "ABN."],
+    chuanbodaogang: ["船舶到港", "Gate In"],
+    tikongxiang: ["提空箱", "Empty Equipment Dispatched"],
+    zhongxiangjinchang: ["重箱进场", "In-Gate"],
+    matoufangxing: ["码头放行", "Wharf-Reieased"],
+    yundibaogao: ["运抵报告", "Arrive Report"],
+    haiguanfangxing: ["海关放行", "Customs-Reieased"],
+    zhongxingyitihuo: ["重箱已提货", "Out-Gate"],
+    kongxiangfanchang: ["空箱返场", "Empty-Committed"],
+    chuanwoligang: ["船舶离港", "Loaded-on-Vessel"],
+    tidanhaobukong: ["提单号不能为空", "BillNo can not be empty"],
+    weizhi: ["位置", "Position"],
+    tuisongshijian: ["推送时间", "Post Time"],
+    dingyueshijian: ["订阅时间", "Sub Time"],
+    tuisongyouxiang: ["推送邮箱", "Post Email"],
+    quxiaodingyue: ["取消订阅", "Cancel Subscription"],
+    dingyue: ["订阅", "Sub"],
   },
   // 获客海报
   poster: {
     gengduohaibao: ["更多海报", "More Poster"],
     xiazaihaibao: ["下载海报", "Download Poster"],
     youqingtishi: ["友情提示", "Tips"],
-    tongguoshouquan: ["通过授权:-->允许【保存到相册】才可根据信息将图片保存到本地相册。 请点击【确定】> 授权", ""],
   },
   // 专属客服 个人名片
   zhuanshukefu: {
@@ -515,6 +580,53 @@ let dictionary = {
     baocuntupian: ["保存图片", "Save Image"],
     xiazaierweima: ["下载二维码", "Download QRCode"]
   },
+  // 海外代理费用
+  oversea: {
+    dingcangkehu: ["订舱客户", "Customer"],
+    haiwaidailifujiafei: ["海外代理附加费", "Oversea Agent Surcharge"],
+    qishiriqi: ["起始日期", "Begin Date"],
+    jiezhiriqi: ["截止日期", "End Date"],
+    fahuoren: ["发货人", "Sender"],
+    shouhuoren: ["收货人", "Receiver"],
+    pinming: ["品名", "Commodity"],
+    danpiao: ["单票", "Per Bill"],
+    danfang: ["单方", "Per Cube"],
+  },
+  // 供应商
+  supplier: {
+    shi: ["是", "Yes"],
+    fou: ["否", "No"],
+    leixing: ["类型", "Type"],
+    qiandingxieyi: ["签订协议", "Sign agreement"],
+    yinruren: ["引入人", "Introduce people"],
+    yinrushijian: ["引入时间", "Introduce time"],
+    gongyingshangyoushi: ["供应商优势", "Supplier advantage"],
+    kouan: ["口岸", "Port"],
+    youshi: ["优势", "Advantage"],
+    gongyingshangmiaoshu: ["供应商描述", "Supplier description"],
+    lianxirenxinxi: ["联系人信息", "Contact"],
+    youshihangxian: ["优势航线", "Advantage route"],
+    youshichuangongsi: ["优势船公司", "Advantage shipping"],
+    youshimiaoshu: ["优势描述", "Advantage description"],
+    kouanshaixuan: ["口岸筛选", "Port filter"],
+    leixingshaixuan: ["类型筛选", "Type filter"],
+    hangxianshaixuan: ["航线筛选", "Route filter"],
+    qingxuanzekouan: ["请选择口岸", "Please select port"],
+    qingxuanleixing: ["请选择类型", "Please select type"],
+    qingxuanhangxian: ["请选择航线", "Please select route"],
+  },
+  // 订阅消息说明
+  subMsg: {
+    kejieshouduoshaoxiaoxi: ["订阅消息数量代表您还可以接收多少消息，因微信规则限制，需要您手动点击增加。", "The number of subscribed messages represents how many messages you can still receive. Due to the limitation of WeChat rules, you need to manually click to increase."],
+    wubigouxuanbuzai: ["请务必勾选“总保持以上选择，不再询问”", `Be sure to tick 'Always keep above selections'`],
+    dingyue: ["订阅", "Sub"],
+    dingyuecaozuo: ["订阅操作", "Subscribe"],
+    zhuyishixiang: ["注意事项", "Tips"],
+    dangqiankejieshouxiaoxidiyu: ["当前可接收消息低于", "Currently acceptable messages are below"],
+    qingjishidingyue: ["请及时订阅", "Please subscribe in time"],
+    yimianyingxiangninyukehude: ["以免影响您与客户的", "so as not to affect your relationship with your customers"],
+    zhengchanghudong: ["正常互动", "normal interaction"],
+  },
   // 消息列表，聊天
   chat: {
     tianjiaweixin: ["添加微信", "Wechat"],
@@ -524,6 +636,10 @@ let dictionary = {
     weininfuwu: ["很高兴为您服务", "I'm glad to serve you."],
     shuruneirong: ["请在此处输入需要填写的内容", "Please enter what needs to be filled in"],
     fasong: ["发送", "Send"],
+    yidu: ["已读", ""],
+    weidu: ["未读", ""],
+    jiawoweixin: ["加我微信", "Wechat"],
+    fuzhiyouxiang: ["复制邮箱", "Email"],
   },
   // 公司
   company: {
@@ -562,6 +678,7 @@ let dictionary = {
     kongyun: ['空运', 'Air'],
     yewuleixing: ['业务类型', 'Business Type'],
     // 客户雷达
+    shoujihaoshouquan: ["手机号授权", "Mobile authorization"],
     kehuzonglan: ["客户总览", "All Customers"],
     kehuhuaxiang: ["客户画像", "Customer Portrait"],
     huizong: ["汇总", "Total"],
@@ -570,6 +687,7 @@ let dictionary = {
     jin30: ["近30天", "30days"],
     kehushu: ["客户数", "Customer"],
     fangwenshu: ["访问数", "Visitor"],
+    fangwenliang: ["访问量", "Visitor"],
     xinzengkehu: ["新增客户", "New"],
     genjinshu: ["跟进数", "Follow"],
     qushifenxi: ["趋势分析", "Trend Analysis"],
@@ -579,6 +697,9 @@ let dictionary = {
     chanpinfenbi: ["产品分布", "Product"],
     laiyuanqudao: ["来源渠道", "Source"],
     fangwenshijian: ["访问时间", "Visit Time"],
+    leijiyonghu: ["累计用户", "Total User"],
+    zongliang: ["总量", "Total"],
+    kehujiajia: ["客户加价", "AddPrice"],
     // 客户跟踪
     chaxunchu: ["查询出", "Query out"],
     tiaoshuju: ["条数据", "results"],
@@ -628,6 +749,19 @@ let dictionary = {
     shouji: ["手机", "Phone"],
     zhiwu: ["职务", "Job"],
     qq: ["QQ", "QQ"],
+    qingshuruzhiwuleibie: ["请输入职务类别", "Please enter job"],
+    qingshurugongsimingcheng: ["请输入公司名称", "Please enter company name"],
+    qingshuruQQhaoma: ["请输入QQ号码", "Please enter QQ"],
+    qingshuruyouxiangzhanghao: ["请输入邮箱账号", "Please enter email"],
+    shenqingdengdai: ["申请成功,请等待审核", "The application is successful, please wait for the review"],
+    zhenghaorenzhengshouquan: ["账号认证授权", "Account authorization"],
+    nindeweirenzheng: ["当前您的账号为未认证状态，请认证您的信息，以便我们为您更好的服务！", "Your account is currently unauthenticated, please authenticate your information so that we can serve you better!"],
+    lijirenzheng: ["立即认证", "Authenticate"],
+    renzhengzhong: ["账号认证中", "Authenticating"],
+    jisushenhezhong: ["您的认证信息系统正在极速审核中，请您耐心等待！", "Your certification information system is being reviewed rapidly, please be patient!"],
+    renzhengdengdai: ["认证中，请耐心等待", "Authentication, please be patient"],
+    renzhengweitongguo: ["认证未通过", "Authentication failed"],
+    weitongguowanshan: ["很抱歉，您提交的认证申请未通过，请完善信息后重新认证，如有疑问请咨询客服。", "Sorry, the certification application you submitted failed. Please complete the information and re-certify. If you have any questions, please contact customer service."],
   },
   // Air Freight
   air: {
@@ -654,12 +788,22 @@ let dictionary = {
     chicunshangxian: ["尺寸上限", "Size Limit"],
     zuidijiage: ["最低价格", "Lowest Price"],
   },
+  // 案例
+  case: {
+    fenxianganli: ["分享案例", "Share case"],
+    zanwuanlixinxi: ["暂无案例信息", "No case information"],
+  },
   // Toast Notice
   message: {
+    quxiaochenggong: ["取消成功", ""],
+    quxiaoshibai: ["取消失败", ""],
+    qingshuruyouxiang: ["请输入邮箱", "Please enter email"],
+    qingshuruzhengqueyouxiang: ["请输入正确格式的邮箱", "Please enter correct email"],
     wanshanxinxigenjin: ["用于完善信息及销售跟进", "Used to improve information and sales follow-up"],
     savedSuccessfully: ['保存成功', 'Saved successfully'],
     saveFailed: ['保存失败', 'Save failed'],
     modifiedSuccessfully: ['修改成功', 'Modified successfully'],
+    fuzhichenggong: ['复制成功', 'Copy successfully'],
     modificationFailed: ['修改失败', 'Modification failed'],
     pleaseInput: ['请输入', 'Please input'],
     pleasePhone: ['请检查手机号格式', 'Please check the format of mobile phone number'],
@@ -773,11 +917,13 @@ let dictionary = {
       tips: ['提示', "Tips"],
       noFreightRate: ['装柜超长或货重超重，没有匹配运价', "The container is too long or the goods are overweight, and there is no matching freight rate"],
     },
+    wanshanzaidingyue: ["请先完善信息，再订阅运价", "Please complete the information before subscribing to the freight rate"],
     querenshanchu: ["确认删除?", "Are you sure you want to delete?"],
     // 授权状态
     lijirenzheng: ["立即认证", "Certificate"],
     zanwurenzhengchaxun: ["暂无认证信息,请认证后查询", "No certification information, please search after certification"],
-    gongnengweikaifang: ["功能暂未开放", "Function not open yet"]
+    gongnengweikaifang: ["功能暂未开放", "Function not open yet"],
+    shanchuzhong: ["删除中", "Deleting"],
 
   },
   // 分享
@@ -866,11 +1012,12 @@ let dictionary = {
     bumenleida: ["部门雷达", "Depart Radar"],
     bumenkehu: ["部门雷达", "Depart Customer"],
     wodeyunjiadingyue: ["我的运价订阅", "My FCL Subscription"],
-    yunjiadingyue: ["运价订阅", "FCL Subscription"],
     wodekefu: ["我的客服", "My Customer Service"],
     huilvjisuan: ['汇率计算', 'Exchange rates'],
     huobiqiehuan: ['货币切换', 'Currency Switch'],
-    pinxiangliebiao: ['拼箱列表', 'LCL List']
+    pinxiangliebiao: ['拼箱列表', 'LCL List'],
+    xiugaiyunjiadingyue: ['修改运价订阅', 'Edit Freight Subscription'],
+    yunjiadingyue: ['运价订阅', 'Freight Subscription']
   }
 
 
