@@ -4,6 +4,34 @@
     "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
     "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
     "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-23 18:15:54",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
       { "dirname": ".", "basename": "index", "extname": "" },
       { "dirname": ".", "basename": "index10", "extname": "" }
     ],

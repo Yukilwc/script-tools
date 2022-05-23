@@ -1,6 +1,7 @@
 import { series, parallel, src, dest } from 'gulp'
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
+const colors = require('colors/safe')
 import traverse from "@babel/traverse";
 import * as generator from "@babel/generator";
 import * as t from '@babel/types'
