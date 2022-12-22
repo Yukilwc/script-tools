@@ -6,9 +6,9 @@
  * @Description: file content
  */
 // const indexName = 'index10'
-const mpFolderPath = 'D:/workspace/work/minapp/etransmp3'
+const mpFolderPath = 'C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/'
 // const mpFolderPath = './mp'
-const mpBackupFolderPath = 'D:/workspace/work/minapp/etransmp3Backup'
+const mpBackupFolderPath = 'C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/'
 // const mpBackupFolderPath = './dist'
 
 module.exports = {

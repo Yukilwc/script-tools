@@ -7,7 +7,6 @@
  * @FilePath: \script-tools\elementui-color-replace\gulpfile.js
  */
 var gulp = require('gulp');
-var sass = require('gulp-sass');
 var rename = require('gulp-rename')
 var watcher = require('gulp-watch')
 var changed = require('gulp-changed');
