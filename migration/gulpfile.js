@@ -8,13 +8,7 @@
  */
 var gulp = require('gulp');
 var rename = require('gulp-rename')
-var watcher = require('gulp-watch')
-var changed = require('gulp-changed');
-const concat = require('gulp-concat');
-const template = require('gulp-template')
 const mapStream = require('map-stream');
-const { matcher } = require('micromatch');
-const { listenerCount } = require('gulp');
 const prettier = require('gulp-prettier');
 const clean = require('gulp-clean');
 const
