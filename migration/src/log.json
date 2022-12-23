@@ -1,5 +1,102 @@
 [
   {
+    "indexName": "index20",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "menu_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-12-23 13:40:37",
+    "argOptions": { "_": ["mp2Backup"], "name": "index20" }
+  },
+  {
+    "indexName": "index18",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-12-22 16:03:40",
+    "argOptions": { "_": ["backup2Mp"], "name": "index18" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "container_v2", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fba_v2", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "oog_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" },
+      { "dirname": ".", "basename": "rate_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v2", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v5", "extname": ".png" }
+    ],
+    "date": "2022-12-22 16:03:09",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
     "indexName": "index19",
     "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
     "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
