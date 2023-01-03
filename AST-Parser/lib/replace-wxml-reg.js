@@ -36,9 +36,9 @@ const rpWxTask = () => {
     translateList = []
     notTranslateList = []
     // FIXME:修改此处调整翻译路径
-    // const commonPath = './packageC/pages/case'
+    const commonPath = './packageD/pages/requestQuote/edit'
     // const commonPath = './pages/messagesDetail'
-    const commonPath = './components/SubscriptionTip'
+    // const commonPath = './components/SubscriptionTip'
     let srcPath = globFilter(path.resolve(targetPath, `${commonPath}/**/*.wxml`))
     let destPath = globFilter(path.resolve(targetPath, `${commonPath}/`))
     console.log('==========', srcPath)
