@@ -119,7 +119,7 @@ function mp2Backup() {
     }
     // 迁移图片
     function handleImage() {
-        return gulp.src([`${mpFolderPath}/images/${indexName}/*`])
+        return gulp.src([`${mpFolderPath}/images/${indexName}/**/*`])
             .pipe(rename((path) => {
                 // console.log('==========rename path', path)
                 if (logInfo.imageLog) {
@@ -198,7 +198,7 @@ function backup2Mp() {
     }
     // 迁移图片
     function handleImage() {
-        return gulp.src([`${mpBackupFolderPath}/images/${indexName}/*`])
+        return gulp.src([`${mpBackupFolderPath}/images/${indexName}/**/*`])
             .pipe(rename((path) => {
                 console.log('==========rename path', path)
                 if (logInfo.imageLog) {
