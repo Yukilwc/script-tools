@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "indexName": "index10",
     "mpFolderPath": "D:/workspace/work/web/gitee/etranscode/etransmp3IM",
     "mpBackupFolderPath": "D:/workspace/work/web/gitee/etranscode/etransmp3Backup",
@@ -951,6 +952,11 @@
       { "dirname": ".", "basename": "index20", "extname": "" },
       { "dirname": ".", "basename": "index20", "extname": "" }
     ],
+=======
+    "indexName": "index20",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+>>>>>>> bfd3871e81d4bf35c297b2d402daffe626b3c318
     "fileLog": [
       { "dirname": ".", "basename": "index", "extname": ".js" },
       { "dirname": ".", "basename": "index", "extname": ".json" },
@@ -964,6 +970,7 @@
       { "dirname": ".", "basename": "schedule", "extname": ".png" },
       { "dirname": ".", "basename": "tracking", "extname": ".png" }
     ],
+<<<<<<< HEAD
     "date": "2023-01-10 14:13:23",
     "argOptions": { "_": ["mp2Backup"], "name": "index20" }
   },
@@ -1737,6 +1744,18 @@
     "cleanLog": [
       { "dirname": ".", "basename": "index18", "extname": "" },
       { "dirname": ".", "basename": "index18", "extname": "" }
+=======
+    "date": "2022-12-23 13:40:37",
+    "argOptions": { "_": ["mp2Backup"], "name": "index20" }
+  },
+  {
+    "indexName": "index18",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+>>>>>>> bfd3871e81d4bf35c297b2d402daffe626b3c318
     ],
     "fileLog": [
       { "dirname": ".", "basename": "index", "extname": ".js" },
@@ -1755,6 +1774,7 @@
       { "dirname": ".", "basename": "index7", "extname": ".png" },
       { "dirname": ".", "basename": "index8", "extname": ".png" }
     ],
+<<<<<<< HEAD
     "date": "2022-09-08 15:00:14",
     "argOptions": { "_": ["mp2Backup"], "name": "index18" }
   },
@@ -1893,6 +1913,18 @@
     "cleanLog": [
       { "dirname": ".", "basename": "index19", "extname": "" },
       { "dirname": ".", "basename": "index19", "extname": "" }
+=======
+    "date": "2022-12-22 16:03:40",
+    "argOptions": { "_": ["backup2Mp"], "name": "index18" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+>>>>>>> bfd3871e81d4bf35c297b2d402daffe626b3c318
     ],
     "fileLog": [
       { "dirname": ".", "basename": "index", "extname": ".js" },
@@ -1932,6 +1964,7 @@
       { "dirname": ".", "basename": "tracking_v4", "extname": ".png" },
       { "dirname": ".", "basename": "tracking_v5", "extname": ".png" }
     ],
+<<<<<<< HEAD
     "date": "2022-08-30 13:48:47",
     "argOptions": { "_": ["mp2Backup"], "name": "index19" }
   },
@@ -4181,6 +4214,12 @@
     "argOptions": { "_": ["backup2Mp"], "name": "index10" }
   },
   {
+=======
+    "date": "2022-12-22 16:03:09",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+>>>>>>> bfd3871e81d4bf35c297b2d402daffe626b3c318
     "indexName": "index19",
     "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
     "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
