@@ -8,16 +8,16 @@ from bs4 import BeautifulSoup
 # from selenium.webdriver.chrome.service import Service as ChromeService
 # from webdriver_manager.chrome import ChromeDriverManager
 
-baseUrl = "https://m.22shuquge.com"
-indexUrl = "https://m.22shuquge.com/indexs/8530/"
-book_name = "深海余烬"
+baseUrl = "http://www.xianqihaotianmi.org"
+indexUrl = "http://www.xianqihaotianmi.org/book/59005.html"
+book_name = "宿命之环"
 # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 
 def main():
     # getIndex()
     # readOneChapter("https://m.22shuquge.com/b/0/870/698450.html")
-    # generate_book()
+    generate_book()
     # get_chapters()
     return
 
@@ -32,25 +32,16 @@ def getIndex():
     driver.get(indexUrl)
     html_content = driver.page_source
     soup = BeautifulSoup(html_content, 'html.parser')
-    page_list = soup.select('.index-container select option')
-    pages = []
-    for page in page_list:
-        value = page["value"]
-        pages.append(value)
+    chapter_list = soup.select('.panel .panel-body:not(.panel-recommand) .list-group.list-charts li a')
     chapters = []
-    for pageUrl in pages:
-        driver.get(f"{baseUrl}{pageUrl}")
-        html_content = driver.page_source
-        soup = BeautifulSoup(html_content, 'html.parser')
-        chapter_list = soup.select('.chapter li a')
-        for chapter in chapter_list:
-            a_tag_contents = chapter.contents
-            title = a_tag_contents[0].text.strip()
-            href = chapter["href"]
-            chapters.append({
-                "title": title,
-                "href": f"{baseUrl}{href}"
-            })
+    for chapter in chapter_list:
+        a_tag_contents = chapter.contents
+        title = a_tag_contents[0].text.strip()
+        href = chapter["href"]
+        chapters.append({
+            "title": title,
+            "href": f"{baseUrl}{href}"
+        })
     chapters_json = json.dumps(chapters, ensure_ascii=False, indent=4)
 
     # 将JSON字符串保存到本地文件
@@ -83,7 +74,7 @@ def generate_book():
             # 将字符串写入文件，并添加换行符
             file.write(one_text + '\n')
             num += 1
-            time.sleep(3)
+            time.sleep(1)
 
     with open(os.path.join(current_dir, "logs.txt"), "w", encoding="utf=8") as file:
         file.write("\n".join(logs))
@@ -92,26 +83,19 @@ def generate_book():
 
 def readOneChapter(driver, chapter_url, logs):
     page_text = ""
-    for i in range(5):
-        driver.get(chapter_url)
-        html_content = driver.page_source
-        soup = BeautifulSoup(html_content, 'html.parser')
-        remove_el = soup.select("#nr #nr1 #center_tip")
-        if len(remove_el) > 0:
-            for r in remove_el:
-                r.decompose()
-        book = soup.select("#nr #nr1")
-        if (len(book) > 0):
-            text = book[0].text.strip()
-            page_text = page_text + "\n" + text
-            next_el = soup.find(id="pt_next")
-            next_text = next_el.text.strip()
-            if (next_text == "下一页"):
-                chapter_url = baseUrl + next_el["href"]
-            else:
-                break
-        else:
-            logs.append(f"当前页面  {chapter_url}  未找到目标元素,{html_content}")
+    driver.get(chapter_url)
+    html_content = driver.page_source
+    soup = BeautifulSoup(html_content, 'html.parser')
+    # remove_el = soup.select("#nr #nr1 #center_tip")
+    # if len(remove_el) > 0:
+    #     for r in remove_el:
+    #         r.decompose()
+    book = soup.select(".panel .panel-body.content-body")
+    if (len(book) > 0):
+        text = book[0].text.strip()
+        page_text = page_text + "\n" + text
+    else:
+        logs.append(f"当前页面  {chapter_url}  未找到目标元素,{html_content}")
     return page_text
 
 

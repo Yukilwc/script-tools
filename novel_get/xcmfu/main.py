@@ -115,7 +115,7 @@ def readOneChapter(driver, chapter_url, logs):
             else:
                 break
         else:
-            logs.append(f"当前页面{chapter_url}未找到目标元素,{html_content}")
+            logs.append(f"当前页面  {chapter_url}  未找到目标元素,{html_content}")
     return page_text
 
 
