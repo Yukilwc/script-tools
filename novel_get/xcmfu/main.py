@@ -15,7 +15,7 @@ book_name = "赛博英雄传"
 
 
 def main():
-    getIndex()
+    # getIndex()
     # readOneChapter("https://m.22shuquge.com/b/0/870/698450.html")
     generate_book()
     # get_chapters()
