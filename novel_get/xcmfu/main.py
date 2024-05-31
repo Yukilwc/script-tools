@@ -9,15 +9,15 @@ from bs4 import BeautifulSoup
 # from webdriver_manager.chrome import ChromeDriverManager
 
 baseUrl = "https://m.xcmfu.com"
-indexUrl = "https://m.xcmfu.com/index/54606.html"
-book_name = "宿命之环"
+indexUrl = "https://m.xcmfu.com/index/48405.html"
+book_name = "赛博英雄传"
 # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 
 def main():
     getIndex()
     # readOneChapter("https://m.22shuquge.com/b/0/870/698450.html")
-    # generate_book()
+    generate_book()
     # get_chapters()
     return
 
