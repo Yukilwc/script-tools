@@ -3,6 +3,30 @@
     "indexName": "index20",
     "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
     "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index20", "extname": "" },
+      { "dirname": ".", "basename": "index20", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "menu_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-12-26 11:38:54",
+    "argOptions": { "_": ["mp2Backup"], "name": "index20" }
+  },
+  {
+    "indexName": "index20",
+    "mpFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etransmp3IM/",
+    "mpBackupFolderPath": "C:/Users/Misaka Lee/Mine/Workspace/forall_project/etranscode/etransmp3Backup/",
     "fileLog": [
       { "dirname": ".", "basename": "index", "extname": ".js" },
       { "dirname": ".", "basename": "index", "extname": ".json" },
