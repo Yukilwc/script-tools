@@ -1,5 +1,6 @@
 import json
 import os
+import time
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -31,15 +32,6 @@ def getIndex():
     driver.get(indexUrl)
     html_content = driver.page_source
     soup = BeautifulSoup(html_content, 'html.parser')
-    # elements = driver.find_elements(by=By.CSS_SELECTOR,value=".read dd")
-    # chapters = []
-    # for element in elements:
-    #     title = element.text
-    #     href = element.get_attribute('href')
-    #     chapters.append({
-    #         title:title,
-    #         href:href
-    #     })
     page_list = soup.select('.index-container select option')
     pages = []
     for page in page_list:
@@ -77,24 +69,28 @@ def get_chapters():
 
 def generate_book():
     driver = webdriver.Chrome()
+    logs = []
     # 打开文件，如果文件不存在则创建，存在则清空内容 ('w' 模式)
     with open(os.path.join(current_dir, f'{book_name}.txt'), 'w', encoding="utf-8") as file:
         chapters = get_chapters()
         num = 0
         for chapter in chapters:
-            bodyText = readOneChapter(driver, chapter_url=chapter["href"])
+            logs.append(f"当下章节索引：{num}," + f"章节名:{chapter['title']}")
+            bodyText = readOneChapter(
+                driver, chapter_url=chapter["href"], logs=logs)
             one_text = chapter["title"] + "\n" + bodyText
             # 循环数组中的每个字符串
             # 将字符串写入文件，并添加换行符
             file.write(one_text + '\n')
             num += 1
-            if (num > 5):
-                break
+            time.sleep(3)
 
+    with open(os.path.join(current_dir, "logs.txt"), "w", encoding="utf=8") as file:
+        file.write("\n".join(logs))
     driver.quit()
 
 
-def readOneChapter(driver, chapter_url):
+def readOneChapter(driver, chapter_url, logs):
     page_text = ""
     for i in range(5):
         driver.get(chapter_url)
@@ -105,7 +101,7 @@ def readOneChapter(driver, chapter_url):
             for r in remove_el:
                 r.decompose()
         book = soup.select("#nr #nr1")
-        if(len(book)>0):
+        if (len(book) > 0):
             text = book[0].text.strip()
             page_text = page_text + "\n" + text
             next_el = soup.find(id="pt_next")
@@ -115,8 +111,7 @@ def readOneChapter(driver, chapter_url):
             else:
                 break
         else:
-            print("当前页面未找到目标元素")
-            print(html_content)
+            logs.append(f"当前页面{chapter_url}未找到目标元素,{html_content}")
     return page_text
 
 
