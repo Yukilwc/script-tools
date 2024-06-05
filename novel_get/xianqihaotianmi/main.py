@@ -15,9 +15,9 @@ book_name = "黄泉逆行"
 
 
 def main():
-    getIndex()
+    # getIndex()
     # readOneChapter("https://m.22shuquge.com/b/0/870/698450.html")
-    # generate_book()
+    generate_book()
     # get_chapters()
     return
 
