@@ -1,0 +1,3792 @@
+[
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "index", "extname": "" }],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-08-10 18:32:58",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "indexHY",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-08-10 18:29:01",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexHY" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-08-10 16:48:24",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "msk_freight", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-08-10 16:45:34",
+    "argOptions": { "_": ["backup2Mp"], "name": "index" }
+  },
+  {
+    "indexName": "index",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "msk_freight", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-08-10 16:43:20",
+    "argOptions": { "_": ["backup2Mp"], "name": "index" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-08-10 15:02:53",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-08-10 14:31:01",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-07-08 15:00:43",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index19", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "oog_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "rate_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v5", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v5", "extname": ".png" }
+    ],
+    "date": "2022-07-08 15:00:07",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "rate_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v4", "extname": ".png" }
+    ],
+    "date": "2022-07-08 14:42:08",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-07-06 11:30:33",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index19", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "rate_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "space_v4", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_v4", "extname": ".png" }
+    ],
+    "date": "2022-07-06 11:29:39",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-07-06 10:51:12",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-07-01 16:15:22",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index9", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air_1", "extname": ".png" },
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "danger_1", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl_1", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode_1", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "rate_1", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_1", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "space_1", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_1", "extname": ".png" }
+    ],
+    "date": "2022-07-01 16:13:23",
+    "argOptions": { "_": ["mp2Backup"], "name": "index9" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-07-01 15:34:25",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-06-30 14:18:41",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-06-30 14:18:16",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-06-28 09:35:29",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-06-10 10:34:08",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "air", "extname": ".png" },
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" }
+    ],
+    "date": "2022-06-09 14:17:55",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-06-07 10:10:13",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-06-07 10:09:42",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index13", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-30 14:49:43",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "index13",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index13", "extname": "" },
+      { "dirname": ".", "basename": "index13", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZeng", "extname": ".png" },
+      { "dirname": ".", "basename": "guojiadaima", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "menu-bj", "extname": ".png" },
+      { "dirname": ".", "basename": "new_img", "extname": ".png" },
+      { "dirname": ".", "basename": "railway", "extname": ".png" },
+      { "dirname": ".", "basename": "weiXian", "extname": ".png" },
+      { "dirname": ".", "basename": "xianCang", "extname": ".png" },
+      { "dirname": ".", "basename": "yunJia", "extname": ".png" }
+    ],
+    "date": "2022-05-30 14:49:06",
+    "argOptions": { "_": ["mp2Backup"], "name": "index13" }
+  },
+  {
+    "indexName": "index13",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZeng", "extname": ".png" },
+      { "dirname": ".", "basename": "guojiadaima", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "menu-bj", "extname": ".png" },
+      { "dirname": ".", "basename": "new_img", "extname": ".png" },
+      { "dirname": ".", "basename": "weiXian", "extname": ".png" },
+      { "dirname": ".", "basename": "xianCang", "extname": ".png" },
+      { "dirname": ".", "basename": "yunJia", "extname": ".png" }
+    ],
+    "date": "2022-05-30 14:43:04",
+    "argOptions": { "_": ["backup2Mp"], "name": "index13" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-30 14:42:31",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-25 16:54:33",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-23 18:15:54",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:42:38",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:41:59",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index19", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:41:27",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:40:26",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index17", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fba", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_hs", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_import_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_space", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:40:07",
+    "argOptions": { "_": ["mp2Backup"], "name": "index17" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fba", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_hs", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_import_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_space", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:37:28",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index19", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:37:20",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:32:29",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index17", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fba", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_hs", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_import_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_space", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:31:59",
+    "argOptions": { "_": ["mp2Backup"], "name": "index17" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index17", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fba", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_hs", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_import_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_space", "extname": ".png" },
+      { "dirname": ".", "basename": "v3_tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:31:01",
+    "argOptions": { "_": ["mp2Backup"], "name": "index17" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:15:07",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexKlr", "extname": "" },
+      { "dirname": ".", "basename": "indexKlr", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-18 09:12:47",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "indexKlr",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "inquiry", "extname": ".png" },
+      { "dirname": ".", "basename": "news_bg", "extname": ".png" },
+      { "dirname": ".", "basename": "oog", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-05-17 17:35:48",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexKlr" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-05-12 19:40:48",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index19", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule_2", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking_2", "extname": ".png" }
+    ],
+    "date": "2022-04-28 14:49:21",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-28 14:24:16",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "indexLCL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-28 14:23:55",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexLCL" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexTSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:49:59",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "indexTSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexTSL", "extname": "" },
+      { "dirname": ".", "basename": "indexTSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "indexBG", "extname": ".png" },
+      { "dirname": ".", "basename": "tabImgR", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:49:16",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexTSL" }
+  },
+  {
+    "indexName": "indexTSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexTSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "indexBG", "extname": ".png" },
+      { "dirname": ".", "basename": "tabImgR", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:48:06",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexTSL" }
+  },
+  {
+    "indexName": "indexTSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexDSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "indexBG", "extname": ".png" },
+      { "dirname": ".", "basename": "tabImgR", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:46:59",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexTSL" }
+  },
+  {
+    "indexName": "indexDSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexSpace", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "background", "extname": ".png" },
+      { "dirname": ".", "basename": "ChQChX", "extname": ".png" },
+      { "dirname": ".", "basename": "HWGZ", "extname": ".png" },
+      { "dirname": ".", "basename": "YJChX", "extname": ".png" },
+      { "dirname": ".", "basename": "ZhJZX", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:46:39",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexDSL" }
+  },
+  {
+    "indexName": "indexSpace",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexSpace", "extname": "" },
+      { "dirname": ".", "basename": "indexSpace", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "reserve", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "xie", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:46:13",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexSpace" }
+  },
+  {
+    "indexName": "indexSpace",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexRF", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "reserve", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "xie", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:44:48",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexSpace" }
+  },
+  {
+    "indexName": "indexRF",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexRF", "extname": "" },
+      { "dirname": ".", "basename": "indexRF", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:44:22",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexRF" }
+  },
+  {
+    "indexName": "indexRF",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL3", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:43:38",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexRF" }
+  },
+  {
+    "indexName": "indexLCL3",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexLCL3", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL3", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fba_search", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:42:52",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexLCL3" }
+  },
+  {
+    "indexName": "indexLCL3",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL2", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fba_search", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:40:42",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexLCL3" }
+  },
+  {
+    "indexName": "indexLCL2",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexLCL2", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL2", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:37:20",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexLCL2" }
+  },
+  {
+    "indexName": "indexLCL2",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:36:06",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexLCL2" }
+  },
+  {
+    "indexName": "indexLCL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexLCL", "extname": "" },
+      { "dirname": ".", "basename": "indexLCL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:33:07",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexLCL" }
+  },
+  {
+    "indexName": "indexLCL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "index", "extname": "" }],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "zhschedule", "extname": ".png" },
+      { "dirname": ".", "basename": "zhtrack", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:30:42",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexLCL" }
+  },
+  {
+    "indexName": "indexHY",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "indexHY", "extname": "" }],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-26 11:30:27",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexHY" }
+  },
+  {
+    "indexName": "indexHY",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "index", "extname": "" }],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-26 11:28:52",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexHY" }
+  },
+  {
+    "indexName": "indexForall",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "indexForall", "extname": "" }],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-26 11:28:09",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexForall" }
+  },
+  {
+    "indexName": "indexForall",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexDSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-26 11:18:56",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexForall" }
+  },
+  {
+    "indexName": "indexDSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexDSL", "extname": "" },
+      { "dirname": ".", "basename": "indexDSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "background", "extname": ".png" },
+      { "dirname": ".", "basename": "ChQChX", "extname": ".png" },
+      { "dirname": ".", "basename": "HWGZ", "extname": ".png" },
+      { "dirname": ".", "basename": "YJChX", "extname": ".png" },
+      { "dirname": ".", "basename": "ZhJZX", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:17:32",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexDSL" }
+  },
+  {
+    "indexName": "indexDSL",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "background", "extname": ".png" },
+      { "dirname": ".", "basename": "ChQChX", "extname": ".png" },
+      { "dirname": ".", "basename": "HWGZ", "extname": ".png" },
+      { "dirname": ".", "basename": "YJChX", "extname": ".png" },
+      { "dirname": ".", "basename": "ZhJZX", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:16:17",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexDSL" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index18", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:15:03",
+    "argOptions": { "_": ["backup2Mp"], "name": "index19" }
+  },
+  {
+    "indexName": "index18",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:14:39",
+    "argOptions": { "_": ["backup2Mp"], "name": "index18" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index16", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:14:22",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "index16",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index15", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "msk", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:14:04",
+    "argOptions": { "_": ["backup2Mp"], "name": "index16" }
+  },
+  {
+    "indexName": "index15",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index14", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanSi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:13:46",
+    "argOptions": { "_": ["backup2Mp"], "name": "index15" }
+  },
+  {
+    "indexName": "index14",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index13", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "bj5", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index14-right", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:13:26",
+    "argOptions": { "_": ["backup2Mp"], "name": "index14" }
+  },
+  {
+    "indexName": "index13",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index13", "extname": "" },
+      { "dirname": ".", "basename": "index13", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZeng", "extname": ".png" },
+      { "dirname": ".", "basename": "guojiadaima", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "menu-bj", "extname": ".png" },
+      { "dirname": ".", "basename": "new_img", "extname": ".png" },
+      { "dirname": ".", "basename": "weiXian", "extname": ".png" },
+      { "dirname": ".", "basename": "xianCang", "extname": ".png" },
+      { "dirname": ".", "basename": "yunJia", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:13:18",
+    "argOptions": { "_": ["mp2Backup"], "name": "index13" }
+  },
+  {
+    "indexName": "index13",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index12", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZeng", "extname": ".png" },
+      { "dirname": ".", "basename": "guojiadaima", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "menu-bj", "extname": ".png" },
+      { "dirname": ".", "basename": "new_img", "extname": ".png" },
+      { "dirname": ".", "basename": "weiXian", "extname": ".png" },
+      { "dirname": ".", "basename": "xianCang", "extname": ".png" },
+      { "dirname": ".", "basename": "yunJia", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:12:14",
+    "argOptions": { "_": ["backup2Mp"], "name": "index13" }
+  },
+  {
+    "indexName": "index12",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index12", "extname": "" },
+      { "dirname": ".", "basename": "index12", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_4", "extname": ".png" },
+      { "dirname": ".", "basename": "logo", "extname": ".png" },
+      { "dirname": ".", "basename": "quote", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:12:01",
+    "argOptions": { "_": ["mp2Backup"], "name": "index12" }
+  },
+  {
+    "indexName": "index12",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index11", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon_4", "extname": ".png" },
+      { "dirname": ".", "basename": "logo", "extname": ".png" },
+      { "dirname": ".", "basename": "quote", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:11:19",
+    "argOptions": { "_": ["backup2Mp"], "name": "index12" }
+  },
+  {
+    "indexName": "index11",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index11", "extname": "" },
+      { "dirname": ".", "basename": "index11", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:11:10",
+    "argOptions": { "_": ["mp2Backup"], "name": "index11" }
+  },
+  {
+    "indexName": "index11",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:10:06",
+    "argOptions": { "_": ["backup2Mp"], "name": "index11" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:09:49",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index9", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:08:09",
+    "argOptions": { "_": ["mp2Backup"], "name": "index9" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index8", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:07:23",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index8",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index8", "extname": "" },
+      { "dirname": ".", "basename": "index8", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "csbk", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "right", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "topBian", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:07:12",
+    "argOptions": { "_": ["mp2Backup"], "name": "index8" }
+  },
+  {
+    "indexName": "index8",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index7", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "csbk", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "right", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "topBian", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:06:18",
+    "argOptions": { "_": ["backup2Mp"], "name": "index8" }
+  },
+  {
+    "indexName": "index7",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index7", "extname": "" },
+      { "dirname": ".", "basename": "index7", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanqi", "extname": ".png" },
+      { "dirname": ".", "basename": "chuansi", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "genzong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huilv", "extname": ".png" },
+      { "dirname": ".", "basename": "jiantou", "extname": ".png" },
+      { "dirname": ".", "basename": "jizhuangxiang", "extname": ".png" },
+      { "dirname": ".", "basename": "right", "extname": ".png" },
+      { "dirname": ".", "basename": "yunjia", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:06:09",
+    "argOptions": { "_": ["mp2Backup"], "name": "index7" }
+  },
+  {
+    "indexName": "index7",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index6", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "chuanqi", "extname": ".png" },
+      { "dirname": ".", "basename": "chuansi", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "genzong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huilv", "extname": ".png" },
+      { "dirname": ".", "basename": "jiantou", "extname": ".png" },
+      { "dirname": ".", "basename": "jizhuangxiang", "extname": ".png" },
+      { "dirname": ".", "basename": "right", "extname": ".png" },
+      { "dirname": ".", "basename": "yunjia", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:03:52",
+    "argOptions": { "_": ["backup2Mp"], "name": "index7" }
+  },
+  {
+    "indexName": "index6",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index6", "extname": "" },
+      { "dirname": ".", "basename": "index6", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "banner_bottom", "extname": ".png" },
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:03:25",
+    "argOptions": { "_": ["mp2Backup"], "name": "index6" }
+  },
+  {
+    "indexName": "index6",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index5", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "banner_bottom", "extname": ".png" },
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:02:28",
+    "argOptions": { "_": ["backup2Mp"], "name": "index6" }
+  },
+  {
+    "indexName": "index5",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index5", "extname": "" },
+      { "dirname": ".", "basename": "index5", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "index_bg", "extname": ".jpg" },
+      { "dirname": ".", "basename": "index_right", "extname": ".png" },
+      { "dirname": ".", "basename": "order", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:02:17",
+    "argOptions": { "_": ["mp2Backup"], "name": "index5" }
+  },
+  {
+    "indexName": "index5",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index4", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "index_bg", "extname": ".jpg" },
+      { "dirname": ".", "basename": "index_right", "extname": ".png" },
+      { "dirname": ".", "basename": "order", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:00:49",
+    "argOptions": { "_": ["backup2Mp"], "name": "index5" }
+  },
+  {
+    "indexName": "index4",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index4", "extname": "" },
+      { "dirname": ".", "basename": "index4", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "more", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 11:00:40",
+    "argOptions": { "_": ["mp2Backup"], "name": "index4" }
+  },
+  {
+    "indexName": "index4",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index3", "extname": "" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "more", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-26 10:58:22",
+    "argOptions": { "_": ["backup2Mp"], "name": "index4" }
+  },
+  {
+    "indexName": "index3",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index3", "extname": "" },
+      { "dirname": ".", "basename": "index3", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:50:15",
+    "argOptions": { "_": ["mp2Backup"], "name": "index3" }
+  },
+  {
+    "indexName": "index3",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index2", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:49:13",
+    "argOptions": { "_": ["backup2Mp"], "name": "index3" }
+  },
+  {
+    "indexName": "index2",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index2", "extname": "" },
+      { "dirname": ".", "basename": "index2", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:48:56",
+    "argOptions": { "_": ["mp2Backup"], "name": "index2" }
+  },
+  {
+    "indexName": "index2",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:47:54",
+    "argOptions": { "_": ["backup2Mp"], "name": "index2" }
+  },
+  {
+    "indexName": "index",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "msk_freight", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:47:28",
+    "argOptions": { "_": ["mp2Backup"], "name": "index" }
+  },
+  {
+    "indexName": "index",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "msk_freight", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:30:54",
+    "argOptions": { "_": ["backup2Mp"], "name": "index" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index17", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" },
+      { "dirname": ".", "basename": "indexAir", "extname": ".png" },
+      { "dirname": ".", "basename": "indexSpace2", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:28:17",
+    "argOptions": { "_": ["mp2Backup"], "name": "index17" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexSpace", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-26 10:04:38",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "indexSpace",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "indexSpace", "extname": "" },
+      { "dirname": ".", "basename": "indexSpace", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "reserve", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "xie", "extname": ".png" }
+    ],
+    "date": "2022-04-21 16:43:02",
+    "argOptions": { "_": ["mp2Backup"], "name": "indexSpace" }
+  },
+  {
+    "indexName": "indexSpace",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index19", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "expert", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "hong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "reserve", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" },
+      { "dirname": ".", "basename": "xie", "extname": ".png" }
+    ],
+    "date": "2022-04-21 15:41:10",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexSpace" }
+  },
+  {
+    "indexName": "index19",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "exchange", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "lcl", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-20 11:36:04",
+    "argOptions": { "_": ["mp2Backup"], "name": "index19" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index14", "extname": "" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-18 16:06:23",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index14",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "bj5", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index14-right", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-15 13:48:56",
+    "argOptions": { "_": ["backup2Mp"], "name": "index14" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index14", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-15 13:47:21",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index14",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index14", "extname": "" },
+      { "dirname": ".", "basename": "index14", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "bj5", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index14-right", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-15 13:46:50",
+    "argOptions": { "_": ["mp2Backup"], "name": "index14" }
+  },
+  {
+    "indexName": "index14",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bg", "extname": ".png" },
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "bj5", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index14-right", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-15 13:37:31",
+    "argOptions": { "_": ["backup2Mp"], "name": "index14" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index9", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-14 16:59:34",
+    "argOptions": { "_": ["mp2Backup"], "name": "index9" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-14 16:10:10",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:44:01",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index18", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:29:23",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index18",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index18", "extname": "" },
+      { "dirname": ".", "basename": "index18", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:29:10",
+    "argOptions": { "_": ["mp2Backup"], "name": "index18" }
+  },
+  {
+    "indexName": "index18",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:28:24",
+    "argOptions": { "_": ["backup2Mp"], "name": "index18" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index17", "extname": "" },
+      { "dirname": ".", "basename": "index17", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:23:32",
+    "argOptions": { "_": ["mp2Backup"], "name": "index17" }
+  },
+  {
+    "indexName": "index17",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index16", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" },
+      { "dirname": ".", "basename": "index6", "extname": ".png" },
+      { "dirname": ".", "basename": "index7", "extname": ".png" },
+      { "dirname": ".", "basename": "index8", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:23:05",
+    "argOptions": { "_": ["backup2Mp"], "name": "index17" }
+  },
+  {
+    "indexName": "index16",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index16", "extname": "" },
+      { "dirname": ".", "basename": "index16", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "msk", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:22:41",
+    "argOptions": { "_": ["mp2Backup"], "name": "index16" }
+  },
+  {
+    "indexName": "index16",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index15", "extname": "" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "msk", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-14 15:22:09",
+    "argOptions": { "_": ["backup2Mp"], "name": "index16" }
+  },
+  {
+    "indexName": "index15",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index15", "extname": "" },
+      { "dirname": ".", "basename": "index15", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanSi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:21:58",
+    "argOptions": { "_": ["mp2Backup"], "name": "index15" }
+  },
+  {
+    "indexName": "index15",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "bj1", "extname": ".png" },
+      { "dirname": ".", "basename": "bj2", "extname": ".png" },
+      { "dirname": ".", "basename": "bj3", "extname": ".png" },
+      { "dirname": ".", "basename": "bj4", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanQi", "extname": ".png" },
+      { "dirname": ".", "basename": "chuanSi", "extname": ".png" },
+      { "dirname": ".", "basename": "genZong", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "huiLv", "extname": ".png" },
+      { "dirname": ".", "basename": "icon1", "extname": ".png" },
+      { "dirname": ".", "basename": "icon2", "extname": ".png" },
+      { "dirname": ".", "basename": "icon3", "extname": ".png" },
+      { "dirname": ".", "basename": "icon4", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:20:49",
+    "argOptions": { "_": ["backup2Mp"], "name": "index15" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index9", "extname": "" },
+      { "dirname": ".", "basename": "index9", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:19:49",
+    "argOptions": { "_": ["mp2Backup"], "name": "index9" }
+  },
+  {
+    "indexName": "index9",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "code", "extname": ".png" },
+      { "dirname": ".", "basename": "danger", "extname": ".png" },
+      { "dirname": ".", "basename": "fcl", "extname": ".png" },
+      { "dirname": ".", "basename": "hscode", "extname": ".png" },
+      { "dirname": ".", "basename": "rate", "extname": ".png" },
+      { "dirname": ".", "basename": "schedule", "extname": ".png" },
+      { "dirname": ".", "basename": "size", "extname": ".png" },
+      { "dirname": ".", "basename": "space", "extname": ".png" },
+      { "dirname": ".", "basename": "tracking", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:15:36",
+    "argOptions": { "_": ["backup2Mp"], "name": "index9" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-14 15:15:10",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index10", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-04-11 09:28:02",
+    "argOptions": { "_": ["mp2Backup"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [{ "dirname": ".", "basename": "index", "extname": "" }],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-02 17:03:14",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "indexForall",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "date": "2022-04-02 16:56:15",
+    "argOptions": { "_": ["backup2Mp"], "name": "indexForall" }
+  },
+  {
+    "indexName": "index",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "cargo", "extname": ".png" },
+      { "dirname": ".", "basename": "container", "extname": ".png" },
+      { "dirname": ".", "basename": "cyclopedia", "extname": ".png" },
+      { "dirname": ".", "basename": "fba", "extname": ".png" },
+      { "dirname": ".", "basename": "freeze", "extname": ".png" },
+      { "dirname": ".", "basename": "freezer", "extname": ".png" },
+      { "dirname": ".", "basename": "freight", "extname": ".png" },
+      { "dirname": ".", "basename": "hs", "extname": ".png" },
+      { "dirname": ".", "basename": "msk_freight", "extname": ".png" },
+      { "dirname": ".", "basename": "parities", "extname": ".png" },
+      { "dirname": ".", "basename": "port", "extname": ".png" },
+      { "dirname": ".", "basename": "state", "extname": ".png" },
+      { "dirname": ".", "basename": "training", "extname": ".png" },
+      { "dirname": ".", "basename": "wxp", "extname": ".png" }
+    ],
+    "date": "2022-04-02 16:46:28",
+    "argOptions": { "_": ["backup2Mp"], "name": "index" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "index10", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-03-25 14:05:00",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  },
+  {
+    "indexName": "index10",
+    "mpFolderPath": "D:/workspace/work/minapp/etransmp3",
+    "mpBackupFolderPath": "D:/workspace/work/minapp/etransmp3Backup",
+    "cleanLog": [
+      { "dirname": ".", "basename": "index", "extname": "" },
+      { "dirname": ".", "basename": "indexTSL", "extname": "" }
+    ],
+    "fileLog": [
+      { "dirname": ".", "basename": "index", "extname": ".js" },
+      { "dirname": ".", "basename": "index", "extname": ".json" },
+      { "dirname": ".", "basename": "index", "extname": ".scss" },
+      { "dirname": ".", "basename": "index", "extname": ".wxml" },
+      { "dirname": ".", "basename": "index", "extname": ".wxss" }
+    ],
+    "imageLog": [
+      { "dirname": ".", "basename": "ceshi", "extname": ".png" },
+      { "dirname": ".", "basename": "index1", "extname": ".png" },
+      { "dirname": ".", "basename": "index2", "extname": ".png" },
+      { "dirname": ".", "basename": "index3", "extname": ".png" },
+      { "dirname": ".", "basename": "index4", "extname": ".png" },
+      { "dirname": ".", "basename": "index5", "extname": ".png" }
+    ],
+    "date": "2022-03-18 18:41:40",
+    "argOptions": { "_": ["backup2Mp"], "name": "index10" }
+  }
+]

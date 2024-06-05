@@ -1,6 +1,7 @@
 import { series, parallel, src, dest } from 'gulp'
 const mapStream = require('map-stream');
 var rename = require('gulp-rename')
+const colors = require('colors/safe')
 import traverse from "@babel/traverse";
 import * as generator from "@babel/generator";
 import * as t from '@babel/types'
@@ -30,7 +31,7 @@ const getArgOptions = () => {
 const insertTitleIntoJsTask = async () => {
     translateList = []
     notTranslateList = []
-    let pages = pagesJson.filter(page => page.navigationBarTitleText)
+    let pages = pagesJson.filter(page => page.navigationBarTitleText&&page.navigationBarTitleText.trim())
     for (let i = 0; i < pages.length; i++) {
         let page = pages[i]
         let cnStr = page.navigationBarTitleText

@@ -34,7 +34,7 @@ const removeJsonTitle = () => {
                     console.warn('==========json parse error', file.path)
                     jsonObj = null
                 }
-                if (jsonObj && jsonObj.navigationBarTitleText) {
+                if (jsonObj && jsonObj.navigationBarTitleText && jsonObj.navigationBarTitleText.trim()) {
                     console.log('==========delete file.path', file.path)
                     // delete jsonObj.navigationBarTitleText
                     jsonObj.navigationBarTitleText = '   '
